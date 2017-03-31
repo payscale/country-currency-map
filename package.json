@@ -6,7 +6,7 @@
     "scripts": {
         "test": "mocha -R min -r babel-register --reporter progress test.js",
         "lint": "eslint --config .eslintrc --format table *.js",
-        "compile": "babel -d lib/ country-currency-map.js && webpack",
+        "compile": "babel -d lib/ country-currency-map.js country-map.js currency-map.js && webpack",
         "prepublish": "npm run test && npm run lint && npm run compile"
     },
     "keywords": [
