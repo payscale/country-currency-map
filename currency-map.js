@@ -191,6 +191,122 @@ module.exports = {
         "name": "Venezuelan Bolivar (VEB)",
         "symbolFormat": "Bs {#}"
     },
+    "HUF": {
+        "name": "Hungarian Forint (HUF)",
+        "symbolFormat": "Ft {#}"
+    },
+    "TZS": {
+        "name": "Tanzanian Shilling (TZS)",
+        "symbolFormat": "TZS {#}"
+    },
+    "NPR": {
+        "name": "Nepalese Rupee (NPR)",
+        "symbolFormat": "NPR {#}"
+    },
+    "SZL": {
+        "name": "Swaziland Lilageni (SZL)",
+        "symbolFormat": "SZL {#}"
+    },
+    "SBD": {
+        "name": "Solomon Islands Dollar (SBD)",
+        "symbolFormat": "SI$ {#}"
+    },
+    "NOK": {
+        "name": "Norwegian Krone (NOK)",
+        "symbolFormat": "kr {#}"
+    },
+    "MWK": {
+        "name": "Malawi Kwacha (MWK)",
+        "symbolFormat": "MK {#}"
+    },
+    "VUV": {
+        "name": "Vanuatu Vatu (VUV)",
+        "symbolFormat": "VT {#}"
+    },
+    "IRR": {
+        "name": "Iran Rial (IRR)",
+        "symbolFormat": "IRR {#}"
+    },
+    "ISK": {
+        "name": "Iceland Krona (ISK)",
+        "symbolFormat": "kr {#}"
+    },
+    "PGK": {
+        "name": "Papua New Guinea Kina (PGK)",
+        "symbolFormat": "K {#}"
+    },
+    "JOD": {
+        "name": "Jordanian Dinar (JOD)",
+        "symbolFormat": "JOD {#}"
+    },
+    "NGN": {
+        "name": "Nigerian Naira (NGN)",
+        "symbolFormat": "NGN {#}"
+    },
+    "TOP": {
+        "name": "Tonga Pa'anga (TOP)",
+        "symbolFormat": "T${#}"
+    },
+    "PKR": {
+        "name": "Pakistani Rupee (PKR)",
+        "symbolFormat": "Rs {#}"
+    },
+    "PLN": {
+        "name": "Polish Zloty (PLN)",
+        "symbolFormat": "PLN {#}"
+    },
+    "MUR": {
+        "name": "Mauritius Rupee (MUR)",
+        "symbolFormat": "Rs {#}"
+    },
+    "LKR": {
+        "name": "Sri Lanka Rupee (LKR)",
+        "symbolFormat": "Rs {#}"
+    },
+    "GYD": {
+        "name": "Guyana Dollar (GYD)",
+        "symbolFormat": "GY${#}"
+    },
+    "JMD": {
+        "name": "Jamaican Dollar (JMD)",
+        "symbolFormat": "JA${#}"
+    },
+    "WST": {
+        "name": "Samoa Tala (WST)",
+        "symbolFormat": "WS${#}"
+    },
+    "MOP": {
+        "name": "Macau Pataca (MOP)",
+        "symbolFormat": "MOP${#}"
+    },
+    "SEK": {
+        "name": "Swedish Krona (SEK)",
+        "symbolFormat": "kr {#}"
+    },
+    "MKD": {
+        "name": "Macedonian Denar (MKD)",
+        "symbolFormat": "MKD {#}"
+    },
+    "TTD": {
+        "name": "Trinidad&Tobago Dollar (TTD)",
+        "symbolFormat": "TT${#}"
+    },
+    "TND": {
+        "name": "Tunisian Dinar (TND)",
+        "symbolFormat": "TND {#}"
+    },
+    "UGX": {
+        "name": "Ugandan Shilling (UGX)",
+        "symbolFormat": "USh {#}"
+    },
+    "PYG": {
+        "name": "Paraguayan Guarani (PYG)",
+        "symbolFormat": "PYG {#}"
+    },
+    "KES": {
+        "name": "Kenyan Shilling (KES)",
+        "symbolFormat": "KSh {#}"
+    },
     "TWD": {
         "name": "Taiwan Dollar (TWD)",
         "symbolFormat": "TWD {#}"

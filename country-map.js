@@ -1,96 +1,4 @@
 module.exports = {
-    "United States": {
-        "abbreviation": "US",
-        "currency": "USD"
-    },
-    "Australia": {
-        "abbreviation": "AU",
-        "currency": "AUD"
-    },
-    "Belgium": {
-        "abbreviation": "BE",
-        "currency": "EUR"
-    },
-    "Canada": {
-        "abbreviation": "CA",
-        "currency": "CAD"
-    },
-    "Denmark": {
-        "abbreviation": "DK",
-        "currency": "USD"
-    },
-    "Finland": {
-        "abbreviation": "FI",
-        "currency": "EUR"
-    },
-    "Germany": {
-        "abbreviation": "DE",
-        "currency": "EUR"
-    },
-    "Greece": {
-        "abbreviation": "GR",
-        "currency": "USD"
-    },
-    "Indonesia": {
-        "abbreviation": "ID",
-        "currency": "IDR"
-    },
-    "Ireland": {
-        "abbreviation": "IE",
-        "currency": "EUR"
-    },
-    "Israel": {
-        "abbreviation": "IL",
-        "currency": "ILS"
-    },
-    "Kuwait": {
-        "abbreviation": "KW",
-        "currency": "KWD"
-    },
-    "Luxembourg": {
-        "abbreviation": "LU",
-        "currency": "EUR"
-    },
-    "Netherlands": {
-        "abbreviation": "NL",
-        "currency": "EUR"
-    },
-    "New Zealand": {
-        "abbreviation": "NZ",
-        "currency": "NZD"
-    },
-    "Norway": {
-        "abbreviation": "NO",
-        "currency": "USD"
-    },
-    "Saudi Arabia": {
-        "abbreviation": "SA",
-        "currency": "SAR"
-    },
-    "Singapore": {
-        "abbreviation": "SG",
-        "currency": "SGD"
-    },
-    "Spain": {
-        "abbreviation": "ES",
-        "currency": "EUR"
-    },
-    "Sweden": {
-        "abbreviation": "SE",
-        "currency": "USD"
-    },
-    "Ukraine": {
-        "abbreviation": "UA",
-        "currency": "USD"
-    },
-    "United Kingdom": {
-        "abbreviation": "UK",
-        "currency": "GBP"
-    },
-    "Ascension Island": {
-        "abbreviation": "AC",
-        "currency": "USD"
-    },
     "Afghanistan": {
         "abbreviation": "AF",
         "currency": "USD"
@@ -139,6 +47,14 @@ module.exports = {
         "abbreviation": "AW",
         "currency": "AWG"
     },
+    "Ascension Island": {
+        "abbreviation": "AC",
+        "currency": "USD"
+    },
+    "Australia": {
+        "abbreviation": "AU",
+        "currency": "AUD"
+    },
     "Austria": {
         "abbreviation": "AT",
         "currency": "EUR"
@@ -166,6 +82,10 @@ module.exports = {
     "Belarus": {
         "abbreviation": "BY",
         "currency": "USD"
+    },
+    "Belgium": {
+        "abbreviation": "BE",
+        "currency": "EUR"
     },
     "Belize": {
         "abbreviation": "BZ",
@@ -230,6 +150,10 @@ module.exports = {
     "Cameroon": {
         "abbreviation": "CM",
         "currency": "USD"
+    },
+    "Canada": {
+        "abbreviation": "CA",
+        "currency": "CAD"
     },
     "Cape Verde": {
         "abbreviation": "CV",
@@ -307,6 +231,10 @@ module.exports = {
         "abbreviation": "CZ",
         "currency": "USD"
     },
+    "Denmark": {
+        "abbreviation": "DK",
+        "currency": "USD"
+    },
     "Djibouti": {
         "abbreviation": "DJ",
         "currency": "USD"
@@ -363,6 +291,10 @@ module.exports = {
         "abbreviation": "FJ",
         "currency": "USD"
     },
+    "Finland": {
+        "abbreviation": "FI",
+        "currency": "EUR"
+    },
     "France": {
         "abbreviation": "FR",
         "currency": "EUR"
@@ -391,6 +323,10 @@ module.exports = {
         "abbreviation": "GE",
         "currency": "USD"
     },
+    "Germany": {
+        "abbreviation": "DE",
+        "currency": "EUR"
+    },
     "Ghana": {
         "abbreviation": "GH",
         "currency": "USD"
@@ -398,6 +334,10 @@ module.exports = {
     "Gibraltar": {
         "abbreviation": "GI",
         "currency": "GBP"
+    },
+    "Greece": {
+        "abbreviation": "GR",
+        "currency": "EUR"
     },
     "Greenland": {
         "abbreviation": "GL",
@@ -421,7 +361,7 @@ module.exports = {
     },
     "Guernsey": {
         "abbreviation": "GG",
-        "currency": "USD"
+        "currency": "GBP"
     },
     "Guinea": {
         "abbreviation": "GN",
@@ -433,7 +373,7 @@ module.exports = {
     },
     "Guyana": {
         "abbreviation": "GY",
-        "currency": "USD"
+        "currency": "GYD"
     },
     "Haiti": {
         "abbreviation": "HT",
@@ -453,27 +393,39 @@ module.exports = {
     },
     "Hungary": {
         "abbreviation": "HU",
-        "currency": "USD"
+        "currency": "HUF"
     },
     "Iceland": {
         "abbreviation": "IS",
-        "currency": "USD"
+        "currency": "ISK"
     },
     "India": {
         "abbreviation": "IN",
         "currency": "INR"
     },
+    "Indonesia": {
+        "abbreviation": "ID",
+        "currency": "IDR"
+    },
     "Iran (Islamic Republic Of)": {
         "abbreviation": "IR",
-        "currency": "USD"
+        "currency": "IRR"
     },
     "Iraq": {
         "abbreviation": "IQ",
         "currency": "USD"
     },
+    "Ireland": {
+        "abbreviation": "IE",
+        "currency": "EUR"
+    },
     "Isle of Man": {
         "abbreviation": "IM",
-        "currency": "IMP"
+        "currency": "GBP"
+    },
+    "Israel": {
+        "abbreviation": "IL",
+        "currency": "ILS"
     },
     "Italy": {
         "abbreviation": "IT",
@@ -481,15 +433,19 @@ module.exports = {
     },
     "Jamaica": {
         "abbreviation": "JM",
-        "currency": "USD"
+        "currency": "JMD"
     },
     "Japan": {
         "abbreviation": "JP",
         "currency": "JPY"
     },
+    "Jersey (Island)": {
+        "abbreviation": "JE",
+        "currency": "USD"
+    },
     "Jordan": {
         "abbreviation": "JO",
-        "currency": "USD"
+        "currency": "JOD"
     },
     "Kazakhstan": {
         "abbreviation": "KZ",
@@ -497,7 +453,7 @@ module.exports = {
     },
     "Kenya": {
         "abbreviation": "KE",
-        "currency": "USD"
+        "currency": "KES"
     },
     "Kiribati": {
         "abbreviation": "KI",
@@ -510,6 +466,10 @@ module.exports = {
     "Korea, Republic Of": {
         "abbreviation": "KR",
         "currency": "USD"
+    },
+    "Kuwait": {
+        "abbreviation": "KW",
+        "currency": "KWD"
     },
     "Kyrgyzstan": {
         "abbreviation": "KG",
@@ -529,7 +489,7 @@ module.exports = {
     },
     "Lesotho": {
         "abbreviation": "LS",
-        "currency": "USD"
+        "currency": "ZAR"
     },
     "Liberia": {
         "abbreviation": "LR",
@@ -541,19 +501,23 @@ module.exports = {
     },
     "Liechtenstein": {
         "abbreviation": "LI",
-        "currency": "USD"
+        "currency": "CHF"
     },
     "Lithuania": {
         "abbreviation": "LT",
         "currency": "USD"
     },
+    "Luxembourg": {
+        "abbreviation": "LU",
+        "currency": "EUR"
+    },
     "Macau": {
         "abbreviation": "MO",
-        "currency": "USD"
+        "currency": "MOP"
     },
     "Macedonia, The Former Yugoslav Republic Of": {
         "abbreviation": "MK",
-        "currency": "USD"
+        "currency": "MKD"
     },
     "Madagascar": {
         "abbreviation": "MG",
@@ -561,7 +525,7 @@ module.exports = {
     },
     "Malawi": {
         "abbreviation": "MW",
-        "currency": "USD"
+        "currency": "MWK"
     },
     "Malaysia": {
         "abbreviation": "MY",
@@ -577,7 +541,7 @@ module.exports = {
     },
     "Malta": {
         "abbreviation": "MT",
-        "currency": "USD"
+        "currency": "EUR"
     },
     "Marshall Islands": {
         "abbreviation": "MH",
@@ -585,7 +549,7 @@ module.exports = {
     },
     "Martinique": {
         "abbreviation": "MQ",
-        "currency": "USD"
+        "currency": "EUR"
     },
     "Mauritania": {
         "abbreviation": "MR",
@@ -593,11 +557,11 @@ module.exports = {
     },
     "Mauritius": {
         "abbreviation": "MU",
-        "currency": "USD"
+        "currency": "MUR"
     },
     "Mayotte": {
         "abbreviation": "YT",
-        "currency": "USD"
+        "currency": "EUR"
     },
     "Mexico": {
         "abbreviation": "MX",
@@ -613,7 +577,7 @@ module.exports = {
     },
     "Monaco": {
         "abbreviation": "MC",
-        "currency": "USD"
+        "currency": "EUR"
     },
     "Mongolia": {
         "abbreviation": "MN",
@@ -621,7 +585,7 @@ module.exports = {
     },
     "Montserrat": {
         "abbreviation": "MS",
-        "currency": "USD"
+        "currency": "XCD"
     },
     "Morocco": {
         "abbreviation": "MA",
@@ -641,11 +605,15 @@ module.exports = {
     },
     "Nauru": {
         "abbreviation": "NR",
-        "currency": "USD"
+        "currency": "AUD"
     },
     "Nepal": {
         "abbreviation": "NP",
-        "currency": "USD"
+        "currency": "NPR"
+    },
+    "Netherlands": {
+        "abbreviation": "NL",
+        "currency": "EUR"
     },
     "Netherlands Antilles": {
         "abbreviation": "AN",
@@ -654,6 +622,10 @@ module.exports = {
     "New Caledonia": {
         "abbreviation": "NC",
         "currency": "USD"
+    },
+    "New Zealand": {
+        "abbreviation": "NZ",
+        "currency": "NZD"
     },
     "Nicaragua": {
         "abbreviation": "NI",
@@ -665,19 +637,23 @@ module.exports = {
     },
     "Nigeria": {
         "abbreviation": "NG",
-        "currency": "USD"
+        "currency": "NGN"
     },
     "Niue": {
         "abbreviation": "NU",
-        "currency": "USD"
+        "currency": "NZD"
     },
     "Norfolk Island": {
         "abbreviation": "NF",
-        "currency": "USD"
+        "currency": "AUD"
     },
     "Northern Mariana Islands": {
         "abbreviation": "MP",
         "currency": "USD"
+    },
+    "Norway": {
+        "abbreviation": "NO",
+        "currency": "NOK"
     },
     "Oman": {
         "abbreviation": "OM",
@@ -685,7 +661,7 @@ module.exports = {
     },
     "Pakistan": {
         "abbreviation": "PK",
-        "currency": "USD"
+        "currency": "PKR"
     },
     "Palau": {
         "abbreviation": "PW",
@@ -701,11 +677,11 @@ module.exports = {
     },
     "Papua New Guinea": {
         "abbreviation": "PG",
-        "currency": "USD"
+        "currency": "PGK"
     },
     "Paraguay": {
         "abbreviation": "PY",
-        "currency": "USD"
+        "currency": "PYG"
     },
     "Peru": {
         "abbreviation": "PE",
@@ -721,7 +697,7 @@ module.exports = {
     },
     "Poland": {
         "abbreviation": "PL",
-        "currency": "USD"
+        "currency": "PLN"
     },
     "Portugal": {
         "abbreviation": "PT",
@@ -753,19 +729,19 @@ module.exports = {
     },
     "Saint Kitts And Nevis": {
         "abbreviation": "KN",
-        "currency": "USD"
+        "currency": "XCD"
     },
     "Saint Lucia": {
         "abbreviation": "LC",
-        "currency": "USD"
+        "currency": "XCD"
     },
     "Saint Vincent And The Grenadines": {
         "abbreviation": "VC",
-        "currency": "USD"
+        "currency": "XCD"
     },
     "Samoa": {
         "abbreviation": "WS",
-        "currency": "USD"
+        "currency": "WST"
     },
     "San Marino": {
         "abbreviation": "SM",
@@ -775,9 +751,17 @@ module.exports = {
         "abbreviation": "ST",
         "currency": "USD"
     },
+    "Saudi Arabia": {
+        "abbreviation": "SA",
+        "currency": "SAR"
+    },
     "Senegal": {
         "abbreviation": "SN",
         "currency": "USD"
+    },
+    "Serbia and Montenegro": {
+        "abbreviation": "CS",
+        "currency": "EUR"
     },
     "Seychelles": {
         "abbreviation": "SC",
@@ -787,17 +771,21 @@ module.exports = {
         "abbreviation": "SL",
         "currency": "USD"
     },
+    "Singapore": {
+        "abbreviation": "SG",
+        "currency": "SGD"
+    },
     "Slovakia (Slovak Republic)": {
         "abbreviation": "SK",
         "currency": "USD"
     },
     "Slovenia": {
         "abbreviation": "SI",
-        "currency": "USD"
+        "currency": "EUR"
     },
     "Solomon Islands": {
         "abbreviation": "SB",
-        "currency": "USD"
+        "currency": "SBD"
     },
     "Somalia": {
         "abbreviation": "SO",
@@ -811,9 +799,13 @@ module.exports = {
         "abbreviation": "GS",
         "currency": "USD"
     },
+    "Spain": {
+        "abbreviation": "ES",
+        "currency": "EUR"
+    },
     "Sri Lanka": {
         "abbreviation": "LK",
-        "currency": "USD"
+        "currency": "LKR"
     },
     "St. Helena": {
         "abbreviation": "SH",
@@ -837,7 +829,11 @@ module.exports = {
     },
     "Swaziland": {
         "abbreviation": "SZ",
-        "currency": "USD"
+        "currency": "SZL"
+    },
+    "Sweden": {
+        "abbreviation": "SE",
+        "currency": "SEK"
     },
     "Switzerland": {
         "abbreviation": "CH",
@@ -847,13 +843,17 @@ module.exports = {
         "abbreviation": "SY",
         "currency": "SYP"
     },
+    "Taiwan": {
+        "abbreviation": "TW",
+        "currency": "TWD"
+    },
     "Tajikistan": {
         "abbreviation": "TJ",
         "currency": "USD"
     },
     "Tanzania, United Republic Of": {
         "abbreviation": "TZ",
-        "currency": "USD"
+        "currency": "TZS"
     },
     "Thailand": {
         "abbreviation": "TH",
@@ -869,15 +869,15 @@ module.exports = {
     },
     "Tonga": {
         "abbreviation": "TO",
-        "currency": "USD"
+        "currency": "TOP"
     },
     "Trinidad And Tobago": {
         "abbreviation": "TT",
-        "currency": "USD"
+        "currency": "TTD"
     },
     "Tunisia": {
         "abbreviation": "TN",
-        "currency": "USD"
+        "currency": "TND"
     },
     "Turkey": {
         "abbreviation": "TR",
@@ -895,16 +895,28 @@ module.exports = {
         "abbreviation": "TV",
         "currency": "USD"
     },
+    "U.S. Minor Outlying Islands": {
+        "abbreviation": "UM",
+        "currency": "USD"
+    },
     "Uganda": {
         "abbreviation": "UG",
+        "currency": "UGX"
+    },
+    "Ukraine": {
+        "abbreviation": "UA",
         "currency": "USD"
     },
     "United Arab Emirates": {
         "abbreviation": "AE",
         "currency": "AED"
     },
-    "U.S. Minor Outlying Islands": {
-        "abbreviation": "UM",
+    "United Kingdom": {
+        "abbreviation": "UK",
+        "currency": "GBP"
+    },
+    "United States": {
+        "abbreviation": "US",
         "currency": "USD"
     },
     "Uruguay": {
@@ -917,7 +929,7 @@ module.exports = {
     },
     "Vanuatu": {
         "abbreviation": "VU",
-        "currency": "USD"
+        "currency": "VUV"
     },
     "Vatican City State (Holy See)": {
         "abbreviation": "VA",
@@ -951,24 +963,11 @@ module.exports = {
         "abbreviation": "YE",
         "currency": "USD"
     },
-    "Serbia and Montenegro": {
-        "abbreviation": "CS",
-        "currency": "USD"
-    },
     "Zambia": {
         "abbreviation": "ZM",
         "currency": "USD"
     },
     "Zimbabwe": {
         "abbreviation": "ZW",
-        "currency": "USD"
-    },
-    "Jersey (Island)": {
-        "abbreviation": "JE",
-        "currency": "USD"
-    },
-    "Taiwan": {
-        "abbreviation": "TW",
-        "currency": "TWD"
-    }
+        "currency": "USD"}
 };
