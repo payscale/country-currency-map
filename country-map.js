@@ -9,7 +9,7 @@ module.exports = {
     },
     "Algeria": {
         "abbreviation": "DZ",
-        "currency": "USD"
+        "currency": "DZD"
     },
     "American Samoa": {
         "abbreviation": "AS",
@@ -17,7 +17,7 @@ module.exports = {
     },
     "Andorra": {
         "abbreviation": "AD",
-        "currency": "USD"
+        "currency": "EUR"
     },
     "Angola": {
         "abbreviation": "AO",
@@ -33,7 +33,7 @@ module.exports = {
     },
     "Antigua And Barbuda": {
         "abbreviation": "AG",
-        "currency": "USD"
+        "currency": "XCD"
     },
     "Argentina": {
         "abbreviation": "AR",
@@ -73,11 +73,11 @@ module.exports = {
     },
     "Bangladesh": {
         "abbreviation": "BD",
-        "currency": "USD"
+        "currency": "BDT"
     },
     "Barbados": {
         "abbreviation": "BB",
-        "currency": "USD"
+        "currency": "BBD"
     },
     "Belarus": {
         "abbreviation": "BY",
@@ -101,7 +101,7 @@ module.exports = {
     },
     "Bhutan": {
         "abbreviation": "BT",
-        "currency": "USD"
+        "currency": "BTN"
     },
     "Bolivia": {
         "abbreviation": "BO",
@@ -113,7 +113,7 @@ module.exports = {
     },
     "Botswana": {
         "abbreviation": "BW",
-        "currency": "USD"
+        "currency": "BWP"
     },
     "Bouvet Island": {
         "abbreviation": "BV",
@@ -129,11 +129,11 @@ module.exports = {
     },
     "Brunei Darussalam": {
         "abbreviation": "BN",
-        "currency": "USD"
+        "currency": "BND"
     },
     "Bulgaria": {
         "abbreviation": "BG",
-        "currency": "USD"
+        "currency": "BGN"
     },
     "Burkina Faso": {
         "abbreviation": "BF",
@@ -149,7 +149,7 @@ module.exports = {
     },
     "Cameroon": {
         "abbreviation": "CM",
-        "currency": "USD"
+        "currency": "XAF"
     },
     "Canada": {
         "abbreviation": "CA",
@@ -205,7 +205,7 @@ module.exports = {
     },
     "Cook Islands": {
         "abbreviation": "CK",
-        "currency": "USD"
+        "currency": "NZD"
     },
     "Costa Rica": {
         "abbreviation": "CR",
@@ -213,7 +213,7 @@ module.exports = {
     },
     "Cote d'Ivoire": {
         "abbreviation": "CI",
-        "currency": "USD"
+        "currency": "XOF"
     },
     "Croatia (local name: Hrvatska)": {
         "abbreviation": "HR",
@@ -225,7 +225,7 @@ module.exports = {
     },
     "Cyprus": {
         "abbreviation": "CY",
-        "currency": "USD"
+        "currency": "EUR"
     },
     "Czech Republic": {
         "abbreviation": "CZ",
@@ -233,7 +233,7 @@ module.exports = {
     },
     "Denmark": {
         "abbreviation": "DK",
-        "currency": "USD"
+        "currency": "DKK"
     },
     "Djibouti": {
         "abbreviation": "DJ",
@@ -241,7 +241,7 @@ module.exports = {
     },
     "Dominica": {
         "abbreviation": "DM",
-        "currency": "USD"
+        "currency": "XCD"
     },
     "Dominican Republic": {
         "abbreviation": "DO",
@@ -269,27 +269,27 @@ module.exports = {
     },
     "Eritrea": {
         "abbreviation": "ER",
-        "currency": "USD"
+        "currency": "ERN"
     },
     "Estonia": {
         "abbreviation": "EE",
-        "currency": "USD"
+        "currency": "EUR"
     },
     "Ethiopia": {
         "abbreviation": "ET",
-        "currency": "USD"
+        "currency": "ETB"
     },
     "Falkland Islands (Malvinas)": {
         "abbreviation": "FK",
-        "currency": "USD"
+        "currency": "FKP"
     },
     "Faroe Islands": {
         "abbreviation": "FO",
-        "currency": "USD"
+        "currency": "DKK"
     },
     "Fiji": {
         "abbreviation": "FJ",
-        "currency": "USD"
+        "currency": "FJD"
     },
     "Finland": {
         "abbreviation": "FI",
@@ -301,7 +301,7 @@ module.exports = {
     },
     "French Guiana": {
         "abbreviation": "GF",
-        "currency": "USD"
+        "currency": "EUR"
     },
     "French Polynesia": {
         "abbreviation": "PF",
@@ -309,7 +309,7 @@ module.exports = {
     },
     "French Southern Territories": {
         "abbreviation": "TF",
-        "currency": "USD"
+        "currency": "EUR"
     },
     "Gabon": {
         "abbreviation": "GA",
@@ -441,7 +441,7 @@ module.exports = {
     },
     "Jersey (Island)": {
         "abbreviation": "JE",
-        "currency": "USD"
+        "currency": "GBP"
     },
     "Jordan": {
         "abbreviation": "JO",
@@ -971,3 +971,4 @@ module.exports = {
         "abbreviation": "ZW",
         "currency": "USD"}
 };
+

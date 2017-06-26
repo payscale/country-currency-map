@@ -307,6 +307,58 @@ module.exports = {
         "name": "Kenyan Shilling (KES)",
         "symbolFormat": "KSh {#}"
     },
+    "BDT": {
+        "name": "Bangladesh Taka (BDT)",
+        "symbolFormat": "BDT {#}"
+    },
+    "BTN": {
+        "name": "Bhutan Ngultrum (BTN)",
+        "symbolFormat": "Nu. {#}"
+    },
+    "ETB": {
+        "name": "Ethiopian Birr (ETB)",
+        "symbolFormat": "Br {#}"
+    },
+    "XOF": {
+        "name": "CFA Franc (BCEAO) (XOF)",
+        "symbolFormat": "XOF {#}"
+    },
+    "XAF": {
+        "name": "CFA Franc (BEAC) (XAF)",
+        "symbolFormat": "XAF {#}"
+    },
+    "DZD": {
+        "name": "Algerian Dinar (DZD)",
+        "symbolFormat": "DA {#}"
+    },
+    "ERN": {
+        "name": "Eritrea Nakfa (ERN)",
+        "symbolFormat": "Nfk {#}"
+    },
+    "BGN": {
+        "name": "Bulgarian Lev (BGN)",
+        "symbolFormat": "BGN {#}"
+    },
+    "FJD": {
+        "name": "Fiji Dollar (FJD)",
+        "symbolFormat": "FJ${#}"
+    },
+    "BND": {
+        "name": "Brunei Dollar (BND)",
+        "symbolFormat": "FJ${#}"
+    },
+    "FKP": {
+        "name": "Falkland Islands Pound (FKP)",
+        "symbolFormat": "FK&pound; {#}"
+    },
+    "BWP": {
+        "name": "Botswana Pula (BWP)",
+        "symbolFormat": "P {#}"
+    },
+    "BBD": {
+        "name": "Barbados Dollar (BBD)",
+        "symbolFormat": "Bds${#}"
+    },
     "TWD": {
         "name": "Taiwan Dollar (TWD)",
         "symbolFormat": "TWD {#}"
