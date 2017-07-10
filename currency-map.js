@@ -191,6 +191,174 @@ module.exports = {
         "name": "Venezuelan Bolivar (VEB)",
         "symbolFormat": "Bs {#}"
     },
+    "HUF": {
+        "name": "Hungarian Forint (HUF)",
+        "symbolFormat": "Ft {#}"
+    },
+    "TZS": {
+        "name": "Tanzanian Shilling (TZS)",
+        "symbolFormat": "TZS {#}"
+    },
+    "NPR": {
+        "name": "Nepalese Rupee (NPR)",
+        "symbolFormat": "NPR {#}"
+    },
+    "SZL": {
+        "name": "Swaziland Lilageni (SZL)",
+        "symbolFormat": "SZL {#}"
+    },
+    "SBD": {
+        "name": "Solomon Islands Dollar (SBD)",
+        "symbolFormat": "SI$ {#}"
+    },
+    "NOK": {
+        "name": "Norwegian Krone (NOK)",
+        "symbolFormat": "kr {#}"
+    },
+    "MWK": {
+        "name": "Malawi Kwacha (MWK)",
+        "symbolFormat": "MK {#}"
+    },
+    "VUV": {
+        "name": "Vanuatu Vatu (VUV)",
+        "symbolFormat": "VT {#}"
+    },
+    "IRR": {
+        "name": "Iran Rial (IRR)",
+        "symbolFormat": "IRR {#}"
+    },
+    "ISK": {
+        "name": "Iceland Krona (ISK)",
+        "symbolFormat": "kr {#}"
+    },
+    "PGK": {
+        "name": "Papua New Guinea Kina (PGK)",
+        "symbolFormat": "K {#}"
+    },
+    "JOD": {
+        "name": "Jordanian Dinar (JOD)",
+        "symbolFormat": "JOD {#}"
+    },
+    "NGN": {
+        "name": "Nigerian Naira (NGN)",
+        "symbolFormat": "NGN {#}"
+    },
+    "TOP": {
+        "name": "Tonga Pa'anga (TOP)",
+        "symbolFormat": "T${#}"
+    },
+    "PKR": {
+        "name": "Pakistani Rupee (PKR)",
+        "symbolFormat": "Rs {#}"
+    },
+    "PLN": {
+        "name": "Polish Zloty (PLN)",
+        "symbolFormat": "PLN {#}"
+    },
+    "MUR": {
+        "name": "Mauritius Rupee (MUR)",
+        "symbolFormat": "Rs {#}"
+    },
+    "LKR": {
+        "name": "Sri Lanka Rupee (LKR)",
+        "symbolFormat": "Rs {#}"
+    },
+    "GYD": {
+        "name": "Guyana Dollar (GYD)",
+        "symbolFormat": "GY${#}"
+    },
+    "JMD": {
+        "name": "Jamaican Dollar (JMD)",
+        "symbolFormat": "JA${#}"
+    },
+    "WST": {
+        "name": "Samoa Tala (WST)",
+        "symbolFormat": "WS${#}"
+    },
+    "MOP": {
+        "name": "Macau Pataca (MOP)",
+        "symbolFormat": "MOP${#}"
+    },
+    "SEK": {
+        "name": "Swedish Krona (SEK)",
+        "symbolFormat": "kr {#}"
+    },
+    "MKD": {
+        "name": "Macedonian Denar (MKD)",
+        "symbolFormat": "MKD {#}"
+    },
+    "TTD": {
+        "name": "Trinidad&Tobago Dollar (TTD)",
+        "symbolFormat": "TT${#}"
+    },
+    "TND": {
+        "name": "Tunisian Dinar (TND)",
+        "symbolFormat": "TND {#}"
+    },
+    "UGX": {
+        "name": "Ugandan Shilling (UGX)",
+        "symbolFormat": "USh {#}"
+    },
+    "PYG": {
+        "name": "Paraguayan Guarani (PYG)",
+        "symbolFormat": "PYG {#}"
+    },
+    "KES": {
+        "name": "Kenyan Shilling (KES)",
+        "symbolFormat": "KSh {#}"
+    },
+    "BDT": {
+        "name": "Bangladesh Taka (BDT)",
+        "symbolFormat": "BDT {#}"
+    },
+    "BTN": {
+        "name": "Bhutan Ngultrum (BTN)",
+        "symbolFormat": "Nu. {#}"
+    },
+    "ETB": {
+        "name": "Ethiopian Birr (ETB)",
+        "symbolFormat": "Br {#}"
+    },
+    "XOF": {
+        "name": "CFA Franc (BCEAO) (XOF)",
+        "symbolFormat": "XOF {#}"
+    },
+    "XAF": {
+        "name": "CFA Franc (BEAC) (XAF)",
+        "symbolFormat": "XAF {#}"
+    },
+    "DZD": {
+        "name": "Algerian Dinar (DZD)",
+        "symbolFormat": "DA {#}"
+    },
+    "ERN": {
+        "name": "Eritrea Nakfa (ERN)",
+        "symbolFormat": "Nfk {#}"
+    },
+    "BGN": {
+        "name": "Bulgarian Lev (BGN)",
+        "symbolFormat": "BGN {#}"
+    },
+    "FJD": {
+        "name": "Fiji Dollar (FJD)",
+        "symbolFormat": "FJ${#}"
+    },
+    "BND": {
+        "name": "Brunei Dollar (BND)",
+        "symbolFormat": "FJ${#}"
+    },
+    "FKP": {
+        "name": "Falkland Islands Pound (FKP)",
+        "symbolFormat": "FK&pound; {#}"
+    },
+    "BWP": {
+        "name": "Botswana Pula (BWP)",
+        "symbolFormat": "P {#}"
+    },
+    "BBD": {
+        "name": "Barbados Dollar (BBD)",
+        "symbolFormat": "Bds${#}"
+    },
     "TWD": {
         "name": "Taiwan Dollar (TWD)",
         "symbolFormat": "TWD {#}"
