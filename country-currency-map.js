@@ -26,7 +26,13 @@ function formatCurrency(value, currencyAbbr) {
     return `${value} ${currencyAbbr}`;
 }
 
+function getCurrencyList() {
+    return currencyMap;
+}
+
 module.exports.getCountry = getCountry;
 module.exports.getCurrency = getCurrency;
 module.exports.getCurrencyAbbreviation = getCurrencyAbbreviation;
 module.exports.formatCurrency = formatCurrency;
+module.exports.getCurrencyList = getCurrencyList;
+
