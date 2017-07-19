@@ -367,10 +367,6 @@ module.exports = {
         "name": "Czech Koruna",
         "symbolFormat": "CZK {#}"
     },
-    "SIT": {
-        "name": "Slovenian Tolar",
-        "symbolFormat": "SIT {#}"
-    },
     "KRW": {
         "name": "Korean Won",
         "symbolFormat": "KRW {#}"
@@ -435,10 +431,6 @@ module.exports = {
         "name": "Cuban Peso",
         "symbolFormat": "CUP {#}"
     },
-    "CYP": {
-        "name": "Cyprus Pound",
-        "symbolFormat": "CYP {#}"
-    },
     "DJF": {
         "name": "Dijibouti Franc",
         "symbolFormat": "DJF {#}"
@@ -446,10 +438,6 @@ module.exports = {
     "SVC": {
         "name": "El Salvador Colon",
         "symbolFormat": "SVC {#}"
-    },
-    "EEK": {
-        "name": "Estonian Kroon",
-        "symbolFormat": "EEK {#}"
     },
     "GHC": {
         "name": "Ghanian Cedi",
@@ -483,10 +471,6 @@ module.exports = {
         "name": "Lao Kip",
         "symbolFormat": "LAK {#}"
     },
-    "LVL": {
-        "name": "Latvian Lat",
-        "symbolFormat": "LVL {#}"
-    },
     "LSL": {
         "name": "Lesotho Loti",
         "symbolFormat": "LSL {#}"
@@ -499,10 +483,6 @@ module.exports = {
         "name": "Libyan Dinar",
         "symbolFormat": "LYD {#}"
     },
-    "LTL": {
-        "name": "Lithuanian Lita",
-        "symbolFormat": "LTL {#}"
-    },
     "MGF": {
         "name": "Malagasy Franc",
         "symbolFormat": "MGF {#}"
@@ -510,10 +490,6 @@ module.exports = {
     "MVR": {
         "name": "Maldives Rufiyaa",
         "symbolFormat": "MVR {#}"
-    },
-    "MTL": {
-        "name": "Maltese Lira",
-        "symbolFormat": "MTL {#}"
     },
     "MRO": {
         "name": "Mauritania Ougulya",
@@ -559,10 +535,6 @@ module.exports = {
         "name": "Platinum Ounces",
         "symbolFormat": "XPT {#}"
     },
-    "SDP": {
-        "name": "Reuters",
-        "symbolFormat": "SDP {#}"
-    },
     "ROL": {
         "name": "Romanian Leu",
         "symbolFormat": "ROL {#}"
@@ -587,10 +559,6 @@ module.exports = {
         "name": "Silver Ounces",
         "symbolFormat": "XAG {#}"
     },
-    "SKK": {
-        "name": "Slovak Koruna",
-        "symbolFormat": "SKK {#}"
-    },
     "SOS": {
         "name": "Somali Shilling",
         "symbolFormat": "SOS {#}"
@@ -599,13 +567,13 @@ module.exports = {
         "name": "St Helena Pound",
         "symbolFormat": "SHP {#}"
     },
-    "SDD": {
-        "name": "Sudanese Dinar",
-        "symbolFormat": "SDD {#}"
+    "SSP": {
+        "name": "Sudanese Pound",
+        "symbolFormat": "SSP {#}"
     },
-    "SRG": {
-        "name": "Surinam Guilder",
-        "symbolFormat": "SRG {#}"
+    "SRD": {
+        "name": "Surinam Dollar",
+        "symbolFormat": "SRD {#}"
     },
     "TRL": {
         "name": "Turkish Lira",
