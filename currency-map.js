@@ -367,18 +367,6 @@ module.exports = {
         "name": "Czech Koruna",
         "symbolFormat": "CZK {#}"
     },
-    "FIM": {
-        "name": "",
-        "symbolFormat": "FIM {#}"
-    },
-    "IEP": {
-        "name": "",
-        "symbolFormat": "IEP {#}"
-    },
-    "NLG": {
-        "name": "",
-        "symbolFormat": "NLG {#}"
-    },
     "SIT": {
         "name": "Slovenian Tolar",
         "symbolFormat": "SIT {#}"
@@ -386,10 +374,6 @@ module.exports = {
     "KRW": {
         "name": "Korean Won",
         "symbolFormat": "KRW {#}"
-    },
-    "ESP": {
-        "name": "",
-        "symbolFormat": "ESP {#}"
     },
     "UAH": {
         "name": "Ukraine Hryvnia",

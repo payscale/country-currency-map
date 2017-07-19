@@ -1,5 +1,6 @@
 import countryMap from './country-map';
 import currencyMap from './currency-map';
+import _ from 'lodash';
 import he from 'he';
 
 function getCountry(countryName) {
@@ -30,9 +31,16 @@ function getCurrencyList() {
     return currencyMap;
 }
 
+function getCurrencyAbbreviationFromName(currencyName) {
+    var abbr =  _.findKey(currencyMap, function(c) {
+          return c.name === currencyName;
+    });
+    return abbr;
+}
+
 module.exports.getCountry = getCountry;
 module.exports.getCurrency = getCurrency;
 module.exports.getCurrencyAbbreviation = getCurrencyAbbreviation;
 module.exports.formatCurrency = formatCurrency;
 module.exports.getCurrencyList = getCurrencyList;
-
+module.exports.getCurrencyAbbreviationFromName = getCurrencyAbbreviationFromName;

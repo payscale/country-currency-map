@@ -1,49 +1,50 @@
 {
-    "name": "country-currency-map",
-    "version": "1.0.3",
-    "description": "Mapping of countries and their primary currency.",
-    "main": "lib/country-currency-map.js",
-    "scripts": {
-        "test": "mocha -R min -r babel-register --reporter progress test.js",
-        "lint": "eslint --config .eslintrc --format table *.js",
-        "compile": "babel -d lib/ country-currency-map.js country-map.js currency-map.js && webpack",
-        "prepublish": "npm run test && npm run lint && npm run compile"
-    },
-    "keywords": [
-        "countries",
-        "currencies",
-        "currency",
-        "country"
-    ],
-    "author": {
-        "name": "PayScale",
-        "email": "it@payscale.com",
-        "url": "http://www.payscale.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/payscale/country-currency-map.git"
-    },
-    "publishConfig": {
-        "registry":"https://registry.npmjs.org"
-    },
-    "license": "MIT",
-    "devDependencies": {
-        "babel-cli": "^6.24.0",
-        "babel-eslint": "^7.1.1",
-        "babel-loader": "^6.2.10",
-        "babel-preset-es2015": "^6.18.0",
-        "babel-preset-stage-0": "^6.16.0",
-        "babel-preset-stage-1": "^6.16.0",
-        "babel-register": "^6.24.0",
-        "chai": "^3.5.0",
-        "eslint": "^3.19.0",
-        "eslint-config-defaults": "^9.0.0",
-        "mocha": "^3.2.0",
-        "path": "^0.12.7",
-        "webpack": "^2.3.2"
-    },
-    "dependencies": {
-        "he": "^1.1.1"
-    }
+  "name": "country-currency-map",
+  "version": "1.0.3",
+  "description": "Mapping of countries and their primary currency.",
+  "main": "lib/country-currency-map.js",
+  "scripts": {
+    "test": "mocha -R min -r babel-register --reporter progress test.js",
+    "lint": "eslint --config .eslintrc --format table *.js",
+    "compile": "babel -d lib/ country-currency-map.js country-map.js currency-map.js && webpack",
+    "prepublish": "npm run test && npm run lint && npm run compile"
+  },
+  "keywords": [
+    "countries",
+    "currencies",
+    "currency",
+    "country"
+  ],
+  "author": {
+    "name": "PayScale",
+    "email": "it@payscale.com",
+    "url": "http://www.payscale.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/payscale/country-currency-map.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "babel-register": "^6.24.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-defaults": "^9.0.0",
+    "mocha": "^3.2.0",
+    "path": "^0.12.7",
+    "webpack": "^2.3.2"
+  },
+  "dependencies": {
+    "he": "^1.1.1",
+    "lodash": "^4.17.4"
+  }
 }
