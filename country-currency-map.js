@@ -27,8 +27,28 @@ function formatCurrency(value, currencyAbbr) {
     return `${value} ${currencyAbbr}`;
 }
 
+// Returns a sorted list of currency objects.
 function getCurrencyList() {
-    return currencyMap;
+   let currencyArray = Object.keys(currencyMap).map(currencyAbbr => {
+        return {
+            abbr: currencyAbbr,
+            name: currencyMap[currencyAbbr].name,
+            symbolFormat: currencyMap[currencyAbbr].symbolFormat
+        };
+    });
+   return currencyArray.sort(function(a, b) {
+        var abbrA = a.name.toUpperCase(); 
+        var abbrB = b.name.toUpperCase(); 
+        if (abbrA < abbrB) {
+            return -1;
+        }
+        if (abbrA > abbrB) {
+            return 1;
+        }
+
+        // names must be equal
+        return 0;
+    });
 }
 
 function getCurrencyAbbreviationFromName(currencyName) {
