@@ -36,6 +36,7 @@ function getCurrencyList() {
             symbolFormat: currencyMap[currencyAbbr].symbolFormat
         };
     });
+   return currencyArray;
 }
 
 function getCurrencyAbbreviationFromName(currencyName) {
