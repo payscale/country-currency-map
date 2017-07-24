@@ -190,7 +190,7 @@ module.exports = {
     "GGP": {
         "name": "Guernsey Pound (", 
         "symbolFormat": "GGP {#}"
-    }
+    },
     "GHC": {
         "name": "Ghanian Cedi (GHC)", 
         "symbolFormat": "GHC {#}"
@@ -646,5 +646,5 @@ module.exports = {
     "ZWD": {
         "name": "Zimbabwe Dollar (ZWD)", 
         "symbolFormat": "ZWD {#}"
-    },
+    }
 };
