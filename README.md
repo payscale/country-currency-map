@@ -39,3 +39,15 @@ var formatCurrency = require('country-currency-map').formatCurrency;
 formatCurrency('100,000', 'USD'); //=> '$100,000'
 formatCurrency('100,000', 'EUR'); //=> '€100,000'
 ```
+
+### Get Currency List
+```js
+var getCurrencyList = require('country-currency-map').getCurrencyList;
+getCurrencyList(); //=> [ { abbr: "AFA", name: "Afghanistan Afghani (AFA)", symbolFormat: "AFA {#}" }, { abbr: "ALL", name: "Albanian Lek (ALL)", symbolFormat:, "ALL {#}" }, ... ]
+```
+
+### Get Currency Abbreviation From Name
+```js
+var getCurrencyAbbreviationFromName = require('country-currency-map').getCurrencyAbbreviationFromName;
+getCurrencyAbbreviationFromName('U.S. Dollar (USD)'); //=> 'USD'
+```
