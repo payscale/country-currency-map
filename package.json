@@ -1,11 +1,11 @@
 {
   "name": "country-currency-map",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Mapping of countries and their primary currency.",
   "main": "lib/country-currency-map.js",
   "scripts": {
     "test": "mocha -R min -r babel-register --reporter progress test.js",
-    "lint": "eslint --config .eslintrc --format table *.js",
+    "lint": "eslint --config .eslintrc *.js",
     "compile": "babel -d lib/ country-currency-map.js country-map.js currency-map.js && webpack",
     "prepublish": "npm run test && npm run lint && npm run compile"
   },
@@ -38,7 +38,7 @@
     "babel-register": "^6.24.0",
     "chai": "^3.5.0",
     "eslint": "^3.19.0",
-    "eslint-config-defaults": "^9.0.0",
+    "eslint-config-payscale": "0.0.8",
     "mocha": "^3.2.0",
     "path": "^0.12.7",
     "webpack": "^2.3.2"

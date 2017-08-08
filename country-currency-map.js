@@ -29,21 +29,26 @@ function formatCurrency(value, currencyAbbr) {
 
 // Returns a list of currency objects.
 function getCurrencyList() {
-   let currencyArray = Object.keys(currencyMap).map(currencyAbbr => {
+    let currencyArray = Object.keys(currencyMap).map(currencyAbbr => {
         return {
             abbr: currencyAbbr,
             name: currencyMap[currencyAbbr].name,
             symbolFormat: currencyMap[currencyAbbr].symbolFormat
         };
     });
-   return currencyArray;
+    return currencyArray;
 }
 
 function getCurrencyAbbreviationFromName(currencyName) {
-    var abbr =  _.findKey(currencyMap, function(c) {
-          return c.name === currencyName;
+    let abbr =  _.findKey(currencyMap, function(c) {
+        return c.name === currencyName;
     });
     return abbr;
+}
+
+function getCountryByAbbreviation(countryAbbr) {
+    let country = _.findKey(countryMap, { 'abbreviation': countryAbbr });
+    return country;
 }
 
 module.exports.getCountry = getCountry;
@@ -52,3 +57,4 @@ module.exports.getCurrencyAbbreviation = getCurrencyAbbreviation;
 module.exports.formatCurrency = formatCurrency;
 module.exports.getCurrencyList = getCurrencyList;
 module.exports.getCurrencyAbbreviationFromName = getCurrencyAbbreviationFromName;
+module.exports.getCountryByAbbreviation = getCountryByAbbreviation;
