@@ -1,5 +1,5 @@
 import chai from 'chai';
-import {getCountry, getCurrency, getCurrencyAbbreviation, formatCurrency} from './country-currency-map';
+import { getCountry, getCurrency, getCurrencyAbbreviation, formatCurrency, getCountryByAbbreviation } from './country-currency-map';
 
 describe('country-currency-map', () => {
     it('getCountry returns expected value', () => {
@@ -47,5 +47,15 @@ describe('country-currency-map', () => {
     it('formatCurrency decodes', () => {
         let result = formatCurrency('100,000', 'EUR');
         chai.expect(result).to.equal('€100,000');
+    });
+
+    it('getCountryByAbbreviation returns expected value', () => {
+        let result = getCountryByAbbreviation('US');
+        chai.expect(result).to.equal('United States');
+    });
+
+    it('getCountryByAbbreviation returns undefined', () => {
+        let result = getCountryByAbbreviation('USA');
+        chai.expect(result).to.be.undefined;
     });
 });
