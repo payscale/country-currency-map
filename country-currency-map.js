@@ -1,5 +1,6 @@
 import countryMap from './country-map';
 import currencyMap from './currency-map';
+import currencyOrderByCountry from './currency-order-by-country';
 import _ from 'lodash';
 import he from 'he';
 
@@ -39,6 +40,19 @@ function getCurrencyList() {
     return currencyArray;
 }
 
+// Returns a list of currency objects ordered by name of the currency
+function getCurrencyListOrderByName() {
+    let currencyArray = currencyOrderByCountry.map(currencyAbbr => {
+        return {
+            abbr: currencyAbbr,
+            name: currencyMap[currencyAbbr].name,
+            symbolFormat: currencyMap[currencyAbbr].symbolFormat     
+        };
+    });
+
+    return currencyArray;
+}
+
 function getCurrencyAbbreviationFromName(currencyName) {
     let abbr =  _.findKey(currencyMap, function(c) {
         return c.name === currencyName;
@@ -56,5 +70,6 @@ module.exports.getCurrency = getCurrency;
 module.exports.getCurrencyAbbreviation = getCurrencyAbbreviation;
 module.exports.formatCurrency = formatCurrency;
 module.exports.getCurrencyList = getCurrencyList;
+module.exports.getCurrencyListOrderByName = getCurrencyListOrderByName;
 module.exports.getCurrencyAbbreviationFromName = getCurrencyAbbreviationFromName;
 module.exports.getCountryByAbbreviation = getCountryByAbbreviation;
