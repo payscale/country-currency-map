@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha -R min -r babel-register --reporter progress test.js",
     "lint": "eslint --config .eslintrc *.js",
-    "compile": "babel -d lib/ country-currency-map.js country-map.js currency-map.js && webpack",
+    "compile": "babel -d lib/ country-currency-map.js country-map.js currency-map.js currency-order-by-country.js && webpack",
     "prepublish": "npm run test && npm run lint && npm run compile"
   },
   "keywords": [
@@ -39,6 +39,7 @@
     "chai": "^3.5.0",
     "eslint": "^3.19.0",
     "eslint-config-payscale": "0.0.8",
+    "eslint-plugin-react": "^7.2.0",
     "mocha": "^3.2.0",
     "path": "^0.12.7",
     "webpack": "^2.3.2"
