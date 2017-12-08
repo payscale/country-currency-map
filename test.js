@@ -44,9 +44,19 @@ describe('country-currency-map', () => {
         chai.expect(result).to.equal('100,000 NONE');
     });
 
-    it('formatCurrency decodes', () => {
+    it('formatCurrency returns expected value for EUR', () => {
         let result = formatCurrency('100,000', 'EUR');
         chai.expect(result).to.equal('€100,000');
+    });
+
+    it('formatCurrency returns expected value for JPY', () => {
+        let result = formatCurrency('100,000', 'JPY');
+        chai.expect(result).to.equal('¥100,000');
+    });
+
+    it('formatCurrency returns expected value for GBP', () => {
+        let result = formatCurrency('100,000', 'GBP');
+        chai.expect(result).to.equal('£100,000');
     });
 
     it('getCountryByAbbreviation returns expected value', () => {
