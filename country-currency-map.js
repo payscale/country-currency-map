@@ -1,7 +1,13 @@
 import countryMap from './country-map';
 import currencyMap from './currency-map';
 import findKey from 'lodash.findkey';
-import he from 'he';
+
+// mapping of escaped currency symbol (eg '&euro;') to actual currency character
+const currencySymbolMap = {
+    'pound': '\xA3',
+    'euro': '\u20AC',
+    'yen': '\xA5'
+};
 
 function getCountry(countryName) {
     return countryMap[countryName];
@@ -22,7 +28,9 @@ function getCurrencyAbbreviation(countryName) {
 function formatCurrency(value, currencyAbbr) {
     let currency = getCurrency(currencyAbbr);
     if(currency) {
-        return he.decode(currency.symbolFormat).replace('{#}', value);
+        return currency.symbolFormat
+            .replace(/&(\w+);/, (match, p1) => currencySymbolMap[p1] || p1)
+            .replace('{#}', value);
     }
     return `${value} ${currencyAbbr}`;
 }

@@ -45,7 +45,6 @@
     "webpack": "^2.3.2"
   },
   "dependencies": {
-    "he": "^1.1.1",
     "lodash.findkey": "^4.6.0"
   }
 }
