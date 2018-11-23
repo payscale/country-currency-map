@@ -549,7 +549,7 @@ module.exports = {
     },
     'SEK': {
         'name': 'Swedish Krona (SEK)',
-        'symbolFormat': 'kr {#}'
+        'symbolFormat': '{#} kr'
     },
     'CHF': {
         'name': 'Swiss Franc (CHF)',
