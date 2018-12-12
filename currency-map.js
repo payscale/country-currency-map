@@ -1,31 +1,31 @@
 module.exports = {
     'AFA': {
         'name': 'Afghanistan Afghani (AFA)',
-        'symbolFormat': 'AFA {#}'
+        'symbolFormat': '{#} ؋'
     },
     'ALL': {
         'name': 'Albanian Lek (ALL)',
-        'symbolFormat': 'ALL {#}'
+        'symbolFormat': '{#} L'
     },
     'DZD': {
         'name': 'Algerian Dinar (DZD)',
-        'symbolFormat': 'DA {#}'
+        'symbolFormat': '{#} DA'
     },
     'AOA': {
         'name': 'Angolan New Kwanza (AOA)',
-        'symbolFormat': 'AOA {#}'
+        'symbolFormat': '{#} Kz'
     },
     'ARS': {
         'name': 'Argentine Peso (ARS)',
-        'symbolFormat': 'ARS {#}'
+        'symbolFormat': '${#}'
     },
     'AMD': {
         'name': 'Armenian Dram (AMD)',
-        'symbolFormat': 'AMD {#}'
+        'symbolFormat': '{#}֏'
     },
     'AWG': {
         'name': 'Aruba Florin (AWG)',
-        'symbolFormat': 'AWG {#}'
+        'symbolFormat': 'Afl {#}'
     },
     'AUD': {
         'name': 'Australian Dollar (AUD)',
@@ -33,19 +33,19 @@ module.exports = {
     },
     'AZM': {
         'name': 'Azerbaijani Manat (AZM)',
-        'symbolFormat': 'AZM {#}'
+        'symbolFormat': '₼{#}'
     },
     'BSD': {
         'name': 'Bahamian Dollar (BSD)',
-        'symbolFormat': 'BSD {#}'
+        'symbolFormat': 'B${#}'
     },
     'BHD': {
         'name': 'Bahraini Dinar (BHD)',
-        'symbolFormat': 'BHD {#}'
+        'symbolFormat': '{#} BD'
     },
     'BDT': {
         'name': 'Bangladesh Taka (BDT)',
-        'symbolFormat': 'BDT {#}'
+        'symbolFormat': '৳{#}'
     },
     'BBD': {
         'name': 'Barbados Dollar (BBD)',
@@ -53,27 +53,27 @@ module.exports = {
     },
     'BYR': {
         'name': 'Belarus Ruble (BYR)',
-        'symbolFormat': 'BYR {#}'
+        'symbolFormat': 'Br {#}'
     },
     'BZD': {
         'name': 'Belize Dollar (BZD)',
-        'symbolFormat': 'BZD {#}'
+        'symbolFormat': 'BZ${#}'
     },
     'BMD': {
         'name': 'Bermuda Dollar (BMD)',
-        'symbolFormat': 'BMD {#}'
+        'symbolFormat': '${#}'
     },
     'BTN': {
         'name': 'Bhutan Ngultrum (BTN)',
-        'symbolFormat': 'Nu. {#}'
+        'symbolFormat': 'Nu.{#}'
     },
     'BOB': {
         'name': 'Bolivian Boliviano (BOB)',
-        'symbolFormat': 'BOB {#}'
+        'symbolFormat': 'Bs. {#}'
     },
     'BAM': {
         'name': 'Bosnian Marka (BAM)',
-        'symbolFormat': 'BAM {#}'
+        'symbolFormat': '{#} KM'
     },
     'BWP': {
         'name': 'Botswana Pula (BWP)',
@@ -89,7 +89,7 @@ module.exports = {
     },
     'BND': {
         'name': 'Brunei Dollar (BND)',
-        'symbolFormat': 'FJ${#}'
+        'symbolFormat': 'B${#}'
     },
     'BGN': {
         'name': 'Bulgarian Lev (BGN)',
@@ -97,7 +97,7 @@ module.exports = {
     },
     'BIF': {
         'name': 'Burundi Franc (BIF)',
-        'symbolFormat': 'BIF {#}'
+        'symbolFormat': '{#} FBu'
     },
     'KHR': {
         'name': 'Cambodia Riel (KHR)',
@@ -109,11 +109,11 @@ module.exports = {
     },
     'CVE': {
         'name': 'Cape Verde Escudo (CVE)',
-        'symbolFormat': 'CVE {#}'
+        'symbolFormat': '{#} CVE'
     },
     'KYD': {
         'name': 'Cayman Islands Dollar (KYD)',
-        'symbolFormat': 'KYD {#}'
+        'symbolFormat': 'CI${#}'
     },
     'XOF': {
         'name': 'CFA Franc (BCEAO) (XOF)',
@@ -125,71 +125,71 @@ module.exports = {
     },
     'CLP': {
         'name': 'Chilean Peso (CLP)',
-        'symbolFormat': 'CLP {#}'
+        'symbolFormat': 'CLP${#}'
     },
     'CNY': {
         'name': 'Chinese Yuan (CNY)',
-        'symbolFormat': 'CNY {#}'
+        'symbolFormat': '¥{#}'
     },
     'COP': {
         'name': 'Colombian Peso (COP)',
-        'symbolFormat': 'COP {#}'
+        'symbolFormat': 'COL${#}'
     },
     'KMF': {
         'name': 'Comoros Franc (KMF)',
-        'symbolFormat': 'KMF {#}'
+        'symbolFormat': 'CF {#}'
     },
     'CDF': {
         'name': 'Congolese Franc (CDF)',
-        'symbolFormat': 'CDF {#}'
+        'symbolFormat': 'FC {#}'
     },
     'CRC': {
         'name': 'Costa Rica Colon (CRC)',
-        'symbolFormat': 'CRC {#}'
+        'symbolFormat': '₡{#}'
     },
     'HRK': {
         'name': 'Croatian Kuna (HRK)',
-        'symbolFormat': 'HRK {#}'
+        'symbolFormat': '{#} kn'
     },
     'CUP': {
         'name': 'Cuban Peso (CUP)',
-        'symbolFormat': 'CUP {#}'
+        'symbolFormat': '${#}'
     },
     'CZK': {
         'name': 'Czech Koruna (CZK)',
-        'symbolFormat': 'CZK {#}'
+        'symbolFormat': '{#} Kč'
     },
     'DKK': {
         'name': 'Danish Krone (DKK)',
-        'symbolFormat': 'DKK {#}'
+        'symbolFormat': '{#} Kr.'
     },
     'DJF': {
         'name': 'Dijibouti Franc (DJF)',
-        'symbolFormat': 'DJF {#}'
+        'symbolFormat': '{#} Fdj'
     },
     'DOP': {
         'name': 'Dominican Peso (DOP)',
-        'symbolFormat': 'DOP {#}'
+        'symbolFormat': 'RD${#}'
     },
     'XCD': {
         'name': 'East Caribbean Dollar (XCD)',
-        'symbolFormat': 'XCD {#}'
+        'symbolFormat': '${#}'
     },
     'EGP': {
         'name': 'Egyptian Pound (EGP)',
-        'symbolFormat': 'EGP {#}'
+        'symbolFormat': 'E&pound; {#}'
     },
     'SVC': {
         'name': 'El Salvador Colon (SVC)',
-        'symbolFormat': 'SVC {#}'
+        'symbolFormat': '₡{#}'
     },
     'ERN': {
         'name': 'Eritrea Nakfa (ERN)',
-        'symbolFormat': 'Nfk {#}'
+        'symbolFormat': '{#} Nkf'
     },
     'ETB': {
         'name': 'Ethiopian Birr (ETB)',
-        'symbolFormat': 'Br {#}'
+        'symbolFormat': '{#} Br'
     },
     'EUR': {
         'name': 'Euro (EUR)',
@@ -209,15 +209,15 @@ module.exports = {
     },
     'GEL': {
         'name': 'Georgian Lari (GEL)',
-        'symbolFormat': 'GEL {#}'
+        'symbolFormat': '₾{#}'
     },
     'GHC': {
         'name': 'Ghanian Cedi (GHC)',
-        'symbolFormat': 'GHC {#}'
+        'symbolFormat': 'GH₵ {#}'
     },
     'GIP': {
         'name': 'Gibraltar Pound (GIP)',
-        'symbolFormat': 'GIP {#}'
+        'symbolFormat': '&pound;{#}'
     },
     'XAU': {
         'name': 'Gold Ounces (XAU)',
@@ -225,11 +225,11 @@ module.exports = {
     },
     'GTQ': {
         'name': 'Guatemala Quetzal (GTQ)',
-        'symbolFormat': 'GTQ {#}'
+        'symbolFormat': '{#} Q'
     },
     'GGP': {
-        'name': 'Guernsey Pound (',
-        'symbolFormat': 'GGP {#}'
+        'name': 'Guernsey Pound (GGP)',
+        'symbolFormat': '&pound;{#}'
     },
     'GNF': {
         'name': 'Guinea Franc (GNF)',
@@ -253,15 +253,15 @@ module.exports = {
     },
     'HUF': {
         'name': 'Hungarian Forint (HUF)',
-        'symbolFormat': 'Ft {#}'
+        'symbolFormat': '{#} Ft'
     },
     'ISK': {
         'name': 'Iceland Krona (ISK)',
-        'symbolFormat': 'kr {#}'
+        'symbolFormat': '{#} kr'
     },
     'INR': {
         'name': 'Indian Rupee (INR)',
-        'symbolFormat': 'Rs {#}'
+        'symbolFormat': '₹{#}'
     },
     'IDR': {
         'name': 'Indonesian Rupiah (IDR)',
@@ -277,11 +277,11 @@ module.exports = {
     },
     'IMP': {
         'name': 'Isle of Man Pound (IMP)',
-        'symbolFormat': 'IMP {#}'
+        'symbolFormat': '&pound;{#}'
     },
     'ILS': {
         'name': 'Israeli Shekel (ILS)',
-        'symbolFormat': 'ILS {#}'
+        'symbolFormat': '₪{#}'
     },
     'JMD': {
         'name': 'Jamaican Dollar (JMD)',
@@ -292,8 +292,8 @@ module.exports = {
         'symbolFormat': '&yen;{#}'
     },
     'JEP': {
-        'name': 'Jerseyan Pound (JEP)',
-        'symbolFormat': 'JEP {#}'
+        'name': 'Jersey Pound (JEP)',
+        'symbolFormat': '&pound;{#}'
     },
     'JOD': {
         'name': 'Jordanian Dinar (JOD)',
@@ -301,7 +301,7 @@ module.exports = {
     },
     'KZT': {
         'name': 'Kazakhstan Tenge (KZT)',
-        'symbolFormat': 'KZT {#}'
+        'symbolFormat': '₸{#}'
     },
     'KES': {
         'name': 'Kenyan Shilling (KES)',
@@ -309,11 +309,11 @@ module.exports = {
     },
     'KRW': {
         'name': 'Korean Won (KRW)',
-        'symbolFormat': 'KRW {#}'
+        'symbolFormat': '₩{#}'
     },
     'KWD': {
         'name': 'Kuwaiti Dinar (KWD)',
-        'symbolFormat': 'KWD {#}'
+        'symbolFormat': '{#} KD'
     },
     'KGS': {
         'name': 'Kyrgyzstan Som (KGS)',
@@ -321,7 +321,7 @@ module.exports = {
     },
     'LAK': {
         'name': 'Lao Kip (LAK)',
-        'symbolFormat': 'LAK {#}'
+        'symbolFormat': '₭{#}'
     },
     'LBP': {
         'name': 'Lebanese Pound (LBP)',
@@ -333,11 +333,11 @@ module.exports = {
     },
     'LRD': {
         'name': 'Liberian Dollar (LRD)',
-        'symbolFormat': 'LRD {#}'
+        'symbolFormat': 'L${#}'
     },
     'LYD': {
         'name': 'Libyan Dinar (LYD)',
-        'symbolFormat': 'LYD {#}'
+        'symbolFormat': '{#} LD'
     },
     'MOP': {
         'name': 'Macau Pataca (MOP)',
@@ -373,7 +373,7 @@ module.exports = {
     },
     'MXN': {
         'name': 'Mexican Peso (MXN)',
-        'symbolFormat': 'MXN {#}'
+        'symbolFormat': '${#}'
     },
     'MDL': {
         'name': 'Moldovan Leu (MDL)',
@@ -393,19 +393,19 @@ module.exports = {
     },
     'MMK': {
         'name': 'Myanmar Kyat (MMK)',
-        'symbolFormat': 'MMK {#}'
+        'symbolFormat': 'K{#}'
     },
     'NAD': {
         'name': 'Namibian Dollar (NAD)',
-        'symbolFormat': 'NAD {#}'
+        'symbolFormat': 'N${#}'
     },
     'NPR': {
         'name': 'Nepalese Rupee (NPR)',
-        'symbolFormat': 'NPR {#}'
+        'symbolFormat': 'रू{#}'
     },
     'ANG': {
         'name': 'Neth Antilles Guilder (ANG)',
-        'symbolFormat': 'ANG {#}'
+        'symbolFormat': 'ƒ{#}'
     },
     'NZD': {
         'name': 'New Zealand Dollar (NZD)',
@@ -413,19 +413,19 @@ module.exports = {
     },
     'NIO': {
         'name': 'Nicaragua Cordoba (NIO)',
-        'symbolFormat': 'NIO {#}'
+        'symbolFormat': 'C${#}'
     },
     'NGN': {
         'name': 'Nigerian Naira (NGN)',
-        'symbolFormat': 'NGN {#}'
+        'symbolFormat': '₦{#}'
     },
     'KPW': {
         'name': 'North Korean Won (KPW)',
-        'symbolFormat': 'KPW {#}'
+        'symbolFormat': '₩{#}'
     },
     'NOK': {
         'name': 'Norwegian Krone (NOK)',
-        'symbolFormat': 'kr {#}'
+        'symbolFormat': '{#} kr'
     },
     'OMR': {
         'name': 'Omani Rial (OMR)',
@@ -433,7 +433,7 @@ module.exports = {
     },
     'XPF': {
         'name': 'Pacific Franc (XPF)',
-        'symbolFormat': 'XPF {#}'
+        'symbolFormat': '₣{#}'
     },
     'PKR': {
         'name': 'Pakistani Rupee (PKR)',
@@ -445,7 +445,7 @@ module.exports = {
     },
     'PAB': {
         'name': 'Panama Balboa (PAB)',
-        'symbolFormat': 'PAB {#}'
+        'symbolFormat': 'B/. {#}'
     },
     'PGK': {
         'name': 'Papua New Guinea Kina (PGK)',
@@ -453,15 +453,15 @@ module.exports = {
     },
     'PYG': {
         'name': 'Paraguayan Guarani (PYG)',
-        'symbolFormat': 'PYG {#}'
+        'symbolFormat': '₲{#}'
     },
     'PEN': {
         'name': 'Peruvian Nuevo Sol (PEN)',
-        'symbolFormat': 'PEN {#}'
+        'symbolFormat': 'S/{#}'
     },
     'PHP': {
         'name': 'Philippine Peso (PHP)',
-        'symbolFormat': 'PHP {#}'
+        'symbolFormat': '₱{#}'
     },
     'XPT': {
         'name': 'Platinum Ounces (XPT)',
@@ -469,7 +469,7 @@ module.exports = {
     },
     'PLN': {
         'name': 'Polish Zloty (PLN)',
-        'symbolFormat': 'PLN {#}'
+        'symbolFormat': '{#}zł'
     },
     'QAR': {
         'name': 'Qatar Rial (QAR)',
@@ -477,23 +477,23 @@ module.exports = {
     },
     'ROL': {
         'name': 'Romanian Leu (ROL)',
-        'symbolFormat': 'ROL {#}'
+        'symbolFormat': 'RON {#}'
     },
     'RUB': {
         'name': 'Russian Rouble (RUB)',
-        'symbolFormat': 'RUB {#}'
+        'symbolFormat': '{#}₽'
     },
     'RWF': {
         'name': 'Rwanda Franc (RWF)',
-        'symbolFormat': 'RWF {#}'
+        'symbolFormat': 'FRw {#}'
     },
     'WST': {
         'name': 'Samoa Tala (WST)',
         'symbolFormat': 'WS${#}'
     },
     'STD': {
-        'name': 'Sao Tome Dobra (STD)',
-        'symbolFormat': 'STD {#}'
+        'name': 'Sao Tome Dobra (STN)',
+        'symbolFormat': 'STN {#}'
     },
     'SAR': {
         'name': 'Saudi Arabian Riyal (SAR)',
@@ -517,7 +517,7 @@ module.exports = {
     },
     'SBD': {
         'name': 'Solomon Islands Dollar (SBD)',
-        'symbolFormat': 'SI$ {#}'
+        'symbolFormat': 'SI${#}'
     },
     'SOS': {
         'name': 'Somali Shilling (SOS)',
@@ -533,7 +533,7 @@ module.exports = {
     },
     'SHP': {
         'name': 'St Helena Pound (SHP)',
-        'symbolFormat': 'SHP {#}'
+        'symbolFormat': '&pound;{#}'
     },
     'SSP': {
         'name': 'Sudanese Pound (SSP)',
@@ -541,11 +541,11 @@ module.exports = {
     },
     'SRD': {
         'name': 'Surinam Dollar (SRD)',
-        'symbolFormat': 'SRD {#}'
+        'symbolFormat': 'Sr${#}'
     },
     'SZL': {
         'name': 'Swaziland Lilageni (SZL)',
-        'symbolFormat': 'SZL {#}'
+        'symbolFormat': 'E{#}'
     },
     'SEK': {
         'name': 'Swedish Krona (SEK)',
@@ -553,7 +553,7 @@ module.exports = {
     },
     'CHF': {
         'name': 'Swiss Franc (CHF)',
-        'symbolFormat': 'CHF {#}'
+        'symbolFormat': '{#} Fr.'
     },
     'SYP': {
         'name': 'Syrian Pound (SYP)',
@@ -561,7 +561,7 @@ module.exports = {
     },
     'TWD': {
         'name': 'Taiwan Dollar (TWD)',
-        'symbolFormat': 'TWD {#}'
+        'symbolFormat': 'NT${#}'
     },
     'TZS': {
         'name': 'Tanzanian Shilling (TZS)',
@@ -569,7 +569,7 @@ module.exports = {
     },
     'THB': {
         'name': 'Thai Baht (THB)',
-        'symbolFormat': 'THB {#}'
+        'symbolFormat': '฿{#}'
     },
     'TOP': {
         'name': "Tonga Pa'anga (TOP)",
@@ -585,7 +585,7 @@ module.exports = {
     },
     'TRL': {
         'name': 'Turkish Lira (TRL)',
-        'symbolFormat': 'TRL {#}'
+        'symbolFormat': '₺{#}'
     },
     'TMM': {
         'name': 'Turkmen Manat (TMM)',
@@ -605,27 +605,27 @@ module.exports = {
     },
     'UAH': {
         'name': 'Ukraine Hryvnia (UAH)',
-        'symbolFormat': 'UAH {#}'
+        'symbolFormat': '₴{#}'
     },
     'UYU': {
         'name': 'Uruguayan New Peso (UYU)',
-        'symbolFormat': 'UYU {#}'
+        'symbolFormat': '${#}'
     },
     'UZS': {
         'name': 'Uzbekistani Sum (UZS)',
-        'symbolFormat': 'UZS {#}'
+        'symbolFormat': '{#} soʻm'
     },
     'VUV': {
         'name': 'Vanuatu Vatu (VUV)',
-        'symbolFormat': 'VT {#}'
+        'symbolFormat': '{#}VT'
     },
     'VEB': {
         'name': 'Venezuelan Bolivar (VEB)',
-        'symbolFormat': 'Bs {#}'
+        'symbolFormat': '{#} Bs.'
     },
     'VND': {
         'name': 'Vietnam Dong (VND)',
-        'symbolFormat': 'VND {#}'
+        'symbolFormat': '{#}₫'
     },
     'YER': {
         'name': 'Yemen Riyal (YER)',
@@ -645,6 +645,6 @@ module.exports = {
     },
     'ZWD': {
         'name': 'Zimbabwe Dollar (ZWD)',
-        'symbolFormat': 'ZWD {#}'
+        'symbolFormat': 'Z${#}'
     }
 };
