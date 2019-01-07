@@ -51,3 +51,8 @@ getCurrencyList(); //=> [ { abbr: "AFA", name: "Afghanistan Afghani (AFA)", symb
 var getCurrencyAbbreviationFromName = require('country-currency-map').getCurrencyAbbreviationFromName;
 getCurrencyAbbreviationFromName('U.S. Dollar (USD)'); //=> 'USD'
 ```
+
+### Get Country by Country Abbreviation
+```js
+var getCountryByAbbreviation = require('country-currency-map').getCountryByAbbreviation;
+getCountryByAbbreviation('US'); //=> 'United States'
