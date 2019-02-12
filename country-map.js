@@ -217,7 +217,7 @@ module.exports = {
     },
     'Croatia (local name: Hrvatska)': {
         'abbreviation': 'HR',
-        'currency': 'USD'
+        'currency': 'HRK'
     },
     'Cuba': {
         'abbreviation': 'CU',
@@ -229,7 +229,7 @@ module.exports = {
     },
     'Czech Republic': {
         'abbreviation': 'CZ',
-        'currency': 'USD'
+        'currency': 'CZK'
     },
     'Denmark': {
         'abbreviation': 'DK',
@@ -329,7 +329,7 @@ module.exports = {
     },
     'Ghana': {
         'abbreviation': 'GH',
-        'currency': 'USD'
+        'currency': 'GHC'
     },
     'Gibraltar': {
         'abbreviation': 'GI',
@@ -601,7 +601,7 @@ module.exports = {
     },
     'Namibia': {
         'abbreviation': 'NA',
-        'currency': 'USD'
+        'currency': 'NAD'
     },
     'Nauru': {
         'abbreviation': 'NR',
