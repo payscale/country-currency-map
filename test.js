@@ -1,5 +1,5 @@
 import chai from 'chai';
-import { getCountry, getCurrency, getCurrencyAbbreviation, formatCurrency, getCountryByAbbreviation } from './country-currency-map';
+import { getCountry, getCurrency, getCurrencyAbbreviation, formatCurrency, getCountryByAbbreviation, getCurrencyNameFromCountry } from './country-currency-map';
 
 describe('country-currency-map', () => {
     it('getCountry returns expected value', () => {
@@ -31,6 +31,16 @@ describe('country-currency-map', () => {
 
     it('getCurrencyAbbreviation returns undefined', () => {
         let result = getCurrencyAbbreviation('Unknown Country');
+        chai.expect(result).to.be.undefined;
+    });
+
+    it('getCurrencyNameFromCountry returns expected value', () => {
+        let result = getCurrencyNameFromCountry('Australia');
+        chai.expect(result).to.equal('Australian Dollar (AUD)');
+    });
+
+    it('getCurrencyNameFromCountry returns undefined', () => {
+        let result = getCurrencyNameFromCountry('Unknown Country');
         chai.expect(result).to.be.undefined;
     });
 
