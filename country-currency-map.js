@@ -54,6 +54,14 @@ function getCurrencyAbbreviationFromName(currencyName) {
     return abbr;
 }
 
+function getCurrencyNameFromCountry(countryName){
+    let currencyAbbr = getCurrencyAbbreviation(countryName);
+    if(currencyAbbr && currencyMap[currencyAbbr]) {
+        return currencyMap[currencyAbbr].name;
+    }
+    return undefined;
+}
+
 function getCountryByAbbreviation(countryAbbr) {
     let country = findKey(countryMap, { 'abbreviation': countryAbbr });
     return country;
@@ -65,4 +73,5 @@ module.exports.getCurrencyAbbreviation = getCurrencyAbbreviation;
 module.exports.formatCurrency = formatCurrency;
 module.exports.getCurrencyList = getCurrencyList;
 module.exports.getCurrencyAbbreviationFromName = getCurrencyAbbreviationFromName;
+module.exports.getCurrencyNameFromCountry = getCurrencyNameFromCountry;
 module.exports.getCountryByAbbreviation = getCountryByAbbreviation;
