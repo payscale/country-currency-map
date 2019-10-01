@@ -1,6 +1,6 @@
 {
   "name": "country-currency-map",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Mapping of countries and their primary currency.",
   "main": "lib/country-currency-map.js",
   "scripts": {
@@ -14,13 +14,6 @@
     "currencies",
     "currency",
     "country"
-  ],
-  "files": [
-    "dist/country-currency-map.js",
-    "dist/country-currency-map.min.js",
-    "lib/country-currency-map.js",
-    "lib/country-map.js",
-    "lib/currency-map.js"
   ],
   "author": {
     "name": "PayScale",
