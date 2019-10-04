@@ -1,5 +1,4 @@
 import { getCurrency } from "./getCurrency";
-import areIntlLocalesSupported from "intl-locales-supported";
 
 const numericAbbr = {
   thousand: { symbol: "k", value: 1000 },

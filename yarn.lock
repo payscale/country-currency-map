@@ -2281,11 +2281,6 @@ interpret@^1.0.0:
   resolved "https://proget.bizcont.underpaid.com/npm/payscale-npm/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
   integrity sha1-1QYaYiS+WOgIOYX1AU2EQ1lXYpY=
 
-intl-locales-supported@1.6.0:
-  version "1.6.0"
-  resolved "https://proget.bizcont.underpaid.com/npm/payscale-npm/intl-locales-supported/-/intl-locales-supported-1.6.0.tgz#6f66501ef23a58c87f242021cfadb1b012770808"
-  integrity sha1-b2ZQHvI6WMh/JCAhz62xsBJ3CAg=
-
 invariant@^2.2.2:
   version "2.2.4"
   resolved "https://proget.bizcont.underpaid.com/npm/payscale-npm/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
