@@ -1,13 +1,13 @@
 {
   "name": "country-currency-map",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Mapping of countries and their primary currency.",
-  "main": "lib/country-currency-map.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha -R min -r babel-register --reporter progress test.js",
     "lint": "eslint --config .eslintrc *.js",
-    "compile": "babel -d lib/ country-currency-map.js country-map.js currency-map.js && webpack",
-    "prepublish": "npm run test && npm run lint && npm run compile"
+    "compile": "babel -d lib/ src/*.js index.js && webpack",
+    "prepublish": "yarn test && yarn lint && yarn compile"
   },
   "keywords": [
     "countries",
@@ -45,6 +45,7 @@
     "webpack": "^2.3.2"
   },
   "dependencies": {
+    "intl-locales-supported": "1.6.0",
     "lodash.findkey": "^4.6.0"
   }
 }
