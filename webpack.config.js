@@ -1,31 +1,31 @@
-var webpack = require('webpack');
-var path = require('path');
+const webpack = require("webpack");
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const path = require("path");
 
 module.exports = {
-    entry: {
-        'country-currency-map': './country-currency-map.js',
-        'country-currency-map.min': './country-currency-map.js'
-    },
-    output: {
-        filename: '[name].js',
-        path: path.resolve(__dirname, 'dist')
-    },
-    plugins: [
-        new webpack.optimize.UglifyJsPlugin({
-            include: /\.min\.js$/,
-            minimize: true,
-            compress: {
-                warnings: false
-            }
-        })
-    ],
-    module: {
-        loaders: [
-            {
-                test: /\.js$/,
-                loader: 'babel-loader',
-                exclude: ['/node_modules/', '/tests/']
-            }
-        ]
-    }
+  mode: "production",
+  entry: {
+    "country-currency-map": "./index.js",
+    "country-currency-map.min": "./index.js"
+  },
+  output: {
+    filename: "[name].js",
+    path: path.resolve(__dirname, "dist")
+  },
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        include: /\.min\.js$/
+      })
+    ]
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        use: "babel-loader",
+        exclude: ["/node_modules/", "/tests/"]
+      }
+    ]
+  }
 };
