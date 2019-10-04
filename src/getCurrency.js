@@ -1,13 +1,11 @@
-import currencyMap from "./currencyMap";
-import { getCountry } from "./getCountry";
-import findKey from "lodash.findkey";
+import currencyMap from './currencyMap';
+import { getCountry } from './getCountry';
+import findKey from 'lodash.findkey';
 
-export const getCurrency = currencyAbbr => {
-  return currencyMap[currencyAbbr];
-};
+export const getCurrency = currencyAbbr => currencyMap[currencyAbbr];
 
 export const getCurrencyAbbreviation = countryName => {
-  let country = getCountry(countryName);
+  const country = getCountry(countryName);
   if (country) {
     return country.currency;
   }
@@ -16,19 +14,15 @@ export const getCurrencyAbbreviation = countryName => {
 
 // Returns a list of currency objects.
 export const getCurrencyList = () => {
-  let currencyArray = Object.keys(currencyMap).map(currencyAbbr => {
-    return {
-      abbr: currencyAbbr,
-      name: currencyMap[currencyAbbr].name,
-      symbolFormat: currencyMap[currencyAbbr].symbolFormat
-    };
-  });
+  const currencyArray = Object.keys(currencyMap).map(currencyAbbr => ({
+    abbr: currencyAbbr,
+    name: currencyMap[currencyAbbr].name,
+    symbolFormat: currencyMap[currencyAbbr].symbolFormat
+  }));
   return currencyArray;
 };
 
 export const getCurrencyAbbreviationFromName = currencyName => {
-  let abbr = findKey(currencyMap, function(c) {
-    return c.name === currencyName;
-  });
+  const abbr = findKey(currencyMap, c => c.name === currencyName);
   return abbr;
 };
