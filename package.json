@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint --config .eslintrc --ignore-pattern *.test.js ./src/**/*.js",
-    "compile": "babel -d lib/ src/*.js index.js && webpack",
+    "compile": "babel -d lib/ src/*.js && webpack",
     "prepublish": "yarn test && yarn lint && yarn compile"
   },
   "keywords": [

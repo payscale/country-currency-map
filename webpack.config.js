@@ -5,8 +5,8 @@ const path = require("path");
 module.exports = {
   mode: "production",
   entry: {
-    "country-currency-map": "./index.js",
-    "country-currency-map.min": "./index.js"
+    "country-currency-map": "./src/index.js",
+    "country-currency-map.min": "./src/index.js"
   },
   output: {
     filename: "[name].js",

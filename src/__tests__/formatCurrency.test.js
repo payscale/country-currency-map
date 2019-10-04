@@ -1,4 +1,4 @@
-import { formatLocaleCurrency, formatCurrency } from '../../index';
+import { formatLocaleCurrency, formatCurrency } from '../index';
 
 describe('formatLocaleCurrency', () => {
   test('abbreviates thousands', () => {
