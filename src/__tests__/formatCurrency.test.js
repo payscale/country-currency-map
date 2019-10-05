@@ -12,12 +12,20 @@ describe("formatLocaleCurrency", () => {
     const result = formatLocaleCurrency(3430000.54, "USD", {
       abbreviate: true
     });
-    expect(result).toEqual("$3.4m");
+    expect(result).toEqual("$3m");
   });
 
   test("abbreviates billions", () => {
     const result = formatLocaleCurrency(8100000000.54, "USD", {
       abbreviate: true
+    });
+    expect(result).toEqual("$8b");
+  });
+
+  test("abbreviates without autoFixed", () => {
+    const result = formatLocaleCurrency(8100000000.54, "USD", {
+      abbreviate: true,
+      autoFixed: false
     });
     expect(result).toEqual("$8.1b");
   });

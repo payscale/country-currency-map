@@ -79,19 +79,19 @@ export const formatLocaleCurrency = (value, currency, options = {}) => {
   if (abbrResult) {
     const format = abbrResult.rawValue.toLocaleString(locale, {
       minimumFractionDigits: 0,
-      maximumFractionDigits: parsedValue >= 1000 ? 1 : 2
+      maximumFractionDigits: parsedValue >= 1000 && autoFixed ? 0 : 2
     });
 
     const localeCurr = abbrResult.rawValue.toLocaleString(locale, {
       minimumFractionDigits: 0,
-      maximumFractionDigits: parsedValue >= 1000 ? 1 : 2,
+      maximumFractionDigits: parsedValue >= 1000 && autoFixed ? 0 : 2,
       currency: currency,
       style: "currency"
     });
 
     return localeCurr.replace(format, `${format}${abbrResult.symbol}`);
   }
-  console.log(autoFixed && parsedValue >= 1000 ? 0 : 2);
+
   return parsedValue.toLocaleString(locale, {
     minimumFractionDigits: 0,
     maximumFractionDigits: autoFixed && parsedValue >= 1000 ? 0 : 2,
