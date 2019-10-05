@@ -1,20 +1,20 @@
-import { getCurrency } from './getCurrency';
+import { getCurrency } from "./getCurrency";
 
 const numericAbbr = {
-  thousand: { symbol: 'k', value: 1000 },
-  million: { symbol: 'm', value: 1000000 },
-  billion: { symbol: 'b', value: 1000000000 },
-  trillion: { symbol: 't', value: 1000000000000 }
+  thousand: { symbol: "k", value: 1000 },
+  million: { symbol: "m", value: 1000000 },
+  billion: { symbol: "b", value: 1000000000 },
+  trillion: { symbol: "t", value: 1000000000000 }
 };
 
 const currencySymbolMap = {
-  pound: '\xA3',
-  euro: '\u20AC',
-  yen: '\xA5'
+  pound: "\xA3",
+  euro: "\u20AC",
+  yen: "\xA5"
 };
 
 const abbreviateNumericValue = value => {
-  let symbol = '';
+  let symbol = "";
   let abbrValue = value;
 
   if (value / numericAbbr.trillion.value > 1) {
@@ -44,52 +44,58 @@ export const formatCurrency = (value, currencyAbbr) => {
   if (currency) {
     return currency.symbolFormat
       .replace(/&(\w+);/, (match, p1) => currencySymbolMap[p1] || p1)
-      .replace('{#}', value);
+      .replace("{#}", value);
   }
   return `${value} ${currencyAbbr}`;
 };
 
-export const formatLocaleCurrency = (
-  value,
-  currencyAbbr,
-  countryAbbr,
-  abbreviate
-) => {
+export const formatLocaleCurrency = (value, currency, options = {}) => {
   const parsedValue = parseFloat(value);
+  const finalOptions = { abbreviate: false, autoFixed: true, ...options };
+  const { abbreviate, autoFixed } = finalOptions;
+  let { locale } = finalOptions;
 
   if (!parsedValue) {
-    return formatCurrency(value, currencyAbbr);
+    return formatCurrency(value, currency);
   }
 
-  const abbrResult = abbreviate ? abbreviateNumericValue(parsedValue) : undefined;
+  const abbrResult = abbreviate
+    ? abbreviateNumericValue(parsedValue)
+    : undefined;
   const localeOptionsSupported =
-    typeof Intl == 'object' && Intl && typeof Intl.NumberFormat == 'function';
+    typeof Intl == "object" && Intl && typeof Intl.NumberFormat == "function";
 
   if (!localeOptionsSupported) {
     return formatCurrency(
       abbrResult ? abbrResult.string : parsedValue,
-      currencyAbbr
+      currency
     );
   }
 
+  if (!locale) {
+    locale = navigator && navigator.language ? navigator.language : "en-US";
+  }
+
   if (abbrResult) {
-    const format = abbrResult.rawValue.toLocaleString(countryAbbr, {
+    const format = abbrResult.rawValue.toLocaleString(locale, {
       minimumFractionDigits: 0,
       maximumFractionDigits: parsedValue >= 1000 ? 1 : 2
     });
 
-    const localeCurr = abbrResult.rawValue.toLocaleString(countryAbbr, {
+    const localeCurr = abbrResult.rawValue.toLocaleString(locale, {
       minimumFractionDigits: 0,
       maximumFractionDigits: parsedValue >= 1000 ? 1 : 2,
-      currency: currencyAbbr,
-      style: 'currency'
+      currency: currency,
+      style: "currency"
     });
 
     return localeCurr.replace(format, `${format}${abbrResult.symbol}`);
   }
-
-  return parsedValue.toLocaleString(countryAbbr, {
-    currency: currencyAbbr,
-    style: 'currency'
+  console.log(autoFixed && parsedValue >= 1000 ? 0 : 2);
+  return parsedValue.toLocaleString(locale, {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: autoFixed && parsedValue >= 1000 ? 0 : 2,
+    currency: currency,
+    style: "currency"
   });
 };
