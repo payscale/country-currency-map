@@ -43,20 +43,26 @@ formatCurrency("100,000", "EUR"); //=> '€100,000'
 
 ### Format Locale Currency
 
-This function takes a number, currency abbreviation and country abbrevation and returns back the currency string based on the country locale. If toLocaleString options are not supported or the value passed is not a number, it will fallback to formatCurrency. Note, NodeJS only support EN locale out of the box. If you need support for other locales please see: https://www.npmjs.com/package/intl
+This function takes a number and currency abbreviation then returns back the currency string based on the country locale (checks navigator language and defaults to EN). If toLocaleString options are not supported or the value passed is not a number, it will fallback to formatCurrency. Note, NodeJS only support EN locale out of the box. If you need support for other locales please see: https://www.npmjs.com/package/intl
 
 ```js
 var formatLocaleCurrency = require("country-currency-map").formatLocaleCurrency;
-formatLocaleCurrency(100000.5, "USD", "ES"); // => '$100.000,50
-formatLocaleCurrency(3000.2, "EUR", "FR"); // => '€3 000,20
+formatLocaleCurrency(100000.5, "USD"); // US locale => '$100.000
+formatLocaleCurrency(3000.2, "EUR"); // FR locale => '€3 000,20
 ```
 
-There's a fourth boolean parameter to enable abbreviation of the numerical value. Currently this only supports numbers in the trillions.
+There's a third boolean parameter for additional options:
+
+1. `autoFixed` - defaults to true, if value >= 1000 then will set fixed precision to 0
+1. `locale` - set locale to override navigator settings
+1. `abbreviate` - default to false, if true will abbreviate the numerical value. Currently this only supports numbers into the trillions.
 
 ```js
 var formatLocaleCurrency = require("country-currency-map").formatLocaleCurrency;
-formatLocaleCurrency(100000.5, "USD", "ES", true); // => '$100k
-formatLocaleCurrency(3000.2, "EUR", "FR", true); // => '€3k
+formatLocaleCurrency(100000.5, "USD", { abbreviate: true }); // => $100k
+formatLocaleCurrency(3000.2, "EUR", { abbreviate: true }); // => €3k
+formatLocaleCurrency(3000.2, "EUR", { abbreviate: true }); // => €3k
+formatLocaleCurrency(3000.2, "USD", { autoFixed: false }); // => $3,000.20
 ```
 
 ### Get Currency List
