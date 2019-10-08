@@ -27,7 +27,7 @@ describe("formatLocaleCurrency", () => {
       abbreviate: true,
       autoFixed: false
     });
-    expect(result).toEqual("$8.1b");
+    expect(result).toEqual("$8.10b");
   });
 
   test("handles abbreviation when less than a thousand", () => {
@@ -48,6 +48,16 @@ describe("formatLocaleCurrency", () => {
   test("handles fixed precision < 1000", () => {
     const result = formatLocaleCurrency(104.54, "USD");
     expect(result).toEqual("$104.54");
+  });
+
+  test("shows 2 decimal digits when ending in 0", () => {
+    const result = formatLocaleCurrency(104.5, "USD");
+    expect(result).toEqual("$104.50");
+  });
+
+  test("shows 0 decimal digits if 0 cents", () => {
+    const result = formatLocaleCurrency("104.00", "USD");
+    expect(result).toEqual("$104");
   });
 });
 

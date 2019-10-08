@@ -38,6 +38,18 @@ const abbreviateNumericValue = value => {
   };
 };
 
+const getFixedDigitCount = (value, autoFixed) => {
+  if (value >= 1000 && autoFixed) {
+    return 0;
+  }
+
+  if (value - Math.floor(value) === 0 && autoFixed) {
+    return 0;
+  }
+
+  return 2;
+};
+
 export const formatCurrency = (value, currencyAbbr) => {
   const currency = getCurrency(currencyAbbr);
 
@@ -54,10 +66,7 @@ export const formatLocaleCurrency = (value, currency, options = {}) => {
   const finalOptions = { abbreviate: false, autoFixed: true, ...options };
   const { abbreviate, autoFixed } = finalOptions;
   let { locale } = finalOptions;
-
-  if (!parsedValue) {
-    return formatCurrency(value, currency);
-  }
+  const digitCount = getFixedDigitCount(value, autoFixed);
 
   const abbrResult = abbreviate
     ? abbreviateNumericValue(parsedValue)
@@ -78,13 +87,13 @@ export const formatLocaleCurrency = (value, currency, options = {}) => {
 
   if (abbrResult) {
     const format = abbrResult.rawValue.toLocaleString(locale, {
-      minimumFractionDigits: 0,
-      maximumFractionDigits: parsedValue >= 1000 && autoFixed ? 0 : 2
+      minimumFractionDigits: digitCount,
+      maximumFractionDigits: digitCount
     });
 
     const localeCurr = abbrResult.rawValue.toLocaleString(locale, {
-      minimumFractionDigits: 0,
-      maximumFractionDigits: parsedValue >= 1000 && autoFixed ? 0 : 2,
+      minimumFractionDigits: digitCount,
+      maximumFractionDigits: digitCount,
       currency: currency,
       style: "currency"
     });
@@ -93,8 +102,8 @@ export const formatLocaleCurrency = (value, currency, options = {}) => {
   }
 
   return parsedValue.toLocaleString(locale, {
-    minimumFractionDigits: 0,
-    maximumFractionDigits: autoFixed && parsedValue >= 1000 ? 0 : 2,
+    minimumFractionDigits: digitCount,
+    maximumFractionDigits: digitCount,
     currency: currency,
     style: "currency"
   });

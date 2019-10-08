@@ -1,6 +1,6 @@
 {
   "name": "country-currency-map",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Mapping of countries and their primary currency.",
   "main": "lib/index.js",
   "scripts": {
