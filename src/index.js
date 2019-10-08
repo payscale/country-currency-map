@@ -5,4 +5,4 @@ module.exports.getCountryByAbbreviation = require("./getCountry").getCountryByAb
 module.exports.getCurrency = require("./getCurrency").getCurrency;
 module.exports.getCurrencyAbbreviation = require("./getCurrency").getCurrencyAbbreviation;
 module.exports.getCurrencyAbbreviationFromName = require("./getCurrency").getCurrencyAbbreviationFromName;
-module.exports.getCurrencyList = require("./src/getCurrency").getCurrencyList;
+module.exports.getCurrencyList = require("./getCurrency").getCurrencyList;
