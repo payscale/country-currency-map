@@ -1,11 +1,11 @@
 {
   "name": "country-currency-map",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "Mapping of countries and their primary currency.",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint --config .eslintrc --ignore-pattern *.test.js ./src/**/*.js",
+    "lint": "eslint --config .eslintrc --ignore-pattern *.test.js ./src/**/*.js --fix",
     "compile": "babel -d lib/ src/*.js && webpack",
     "prepublish": "yarn test && yarn lint && yarn compile"
   },

@@ -1,20 +1,20 @@
-import { getCurrency } from "./getCurrency";
+import { getCurrency } from './getCurrency';
 
 const numericAbbr = {
-  thousand: { symbol: "k", value: 1000 },
-  million: { symbol: "m", value: 1000000 },
-  billion: { symbol: "b", value: 1000000000 },
-  trillion: { symbol: "t", value: 1000000000000 }
+  thousand: { symbol: 'k', value: 1000 },
+  million: { symbol: 'm', value: 1000000 },
+  billion: { symbol: 'b', value: 1000000000 },
+  trillion: { symbol: 't', value: 1000000000000 }
 };
 
 const currencySymbolMap = {
-  pound: "\xA3",
-  euro: "\u20AC",
-  yen: "\xA5"
+  pound: '\xA3',
+  euro: '\u20AC',
+  yen: '\xA5'
 };
 
 const abbreviateNumericValue = value => {
-  let symbol = "";
+  let symbol = '';
   let abbrValue = value;
 
   if (value / numericAbbr.trillion.value > 1) {
@@ -56,7 +56,7 @@ export const formatCurrency = (value, currencyAbbr) => {
   if (currency) {
     return currency.symbolFormat
       .replace(/&(\w+);/, (match, p1) => currencySymbolMap[p1] || p1)
-      .replace("{#}", value);
+      .replace('{#}', value);
   }
   return `${value} ${currencyAbbr}`;
 };
@@ -72,7 +72,7 @@ export const formatLocaleCurrency = (value, currency, options = {}) => {
     ? abbreviateNumericValue(parsedValue)
     : undefined;
   const localeOptionsSupported =
-    typeof Intl == "object" && Intl && typeof Intl.NumberFormat == "function";
+    typeof Intl == 'object' && Intl && typeof Intl.NumberFormat == 'function';
 
   if (!localeOptionsSupported) {
     return formatCurrency(
@@ -82,7 +82,7 @@ export const formatLocaleCurrency = (value, currency, options = {}) => {
   }
 
   if (!locale) {
-    locale = navigator && navigator.language ? navigator.language : "en-US";
+    locale = navigator && navigator.language ? navigator.language : 'en-US';
   }
 
   if (abbrResult) {
@@ -94,8 +94,8 @@ export const formatLocaleCurrency = (value, currency, options = {}) => {
     const localeCurr = abbrResult.rawValue.toLocaleString(locale, {
       minimumFractionDigits: digitCount,
       maximumFractionDigits: digitCount,
-      currency: currency,
-      style: "currency"
+      currency,
+      style: 'currency'
     });
 
     return localeCurr.replace(format, `${format}${abbrResult.symbol}`);
@@ -104,7 +104,7 @@ export const formatLocaleCurrency = (value, currency, options = {}) => {
   return parsedValue.toLocaleString(locale, {
     minimumFractionDigits: digitCount,
     maximumFractionDigits: digitCount,
-    currency: currency,
-    style: "currency"
+    currency,
+    style: 'currency'
   });
 };
