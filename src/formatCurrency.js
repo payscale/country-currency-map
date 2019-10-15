@@ -82,7 +82,7 @@ export const formatLocaleCurrency = (value, currency, options = {}) => {
   }
 
   if (!locale) {
-    locale = navigator && navigator.language ? navigator.language : 'en-US';
+    locale = typeof window !== 'undefined' && window !== null && window.navigator && window.navigator.language ? window.navigator.language : 'en-US';
   }
 
   if (abbrResult) {
