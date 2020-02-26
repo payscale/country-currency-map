@@ -3,6 +3,10 @@ module.exports = {
     'abbreviation': 'AF',
     'currency': 'AFN'
   },
+  'Åland Islands': {
+    'abbreviation': 'AX',
+    'currency': 'EUR'
+  },
   'Albania': {
     'abbreviation': 'AL',
     'currency': 'ALL'
