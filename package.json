@@ -1,6 +1,6 @@
 {
   "name": "country-currency-map",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "Mapping of countries and their primary currency.",
   "main": "lib/index.js",
   "scripts": {
@@ -44,10 +44,10 @@
     "eslint": "4.18.2",
     "eslint-config-payscale": "1.2.3",
     "eslint-plugin-react": "7.16.0",
-    "jest": "24.9.0",
-    "mocha": "6.2.1",
+    "jest": "25.2.7",
+    "mocha": "7.1.1",
     "path": "0.12.7",
-    "uglifyjs-webpack-plugin": "2.2.0",
+    "terser-webpack-plugin": "2.3.5",
     "webpack": "4.41.0",
     "webpack-cli": "3.3.9"
   },
