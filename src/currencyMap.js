@@ -1,7 +1,7 @@
 /* eslint-disable no-template-curly-in-string */
 module.exports = {
-  AFA: {
-    name: 'Afghanistan Afghani (AFA)',
+  AFN: {
+    name: 'Afghanistan Afghani (AFN)',
     symbolFormat: '{#} ؋'
   },
   ALL: {
