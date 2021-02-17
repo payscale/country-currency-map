@@ -2,650 +2,650 @@
 module.exports = {
   AFA: {
     name: 'Afghanistan Afghani (AFA)',
-    symbolFormat: '{#} ؋'
+    symbolFormat: '{#} ؋',
   },
   ALL: {
     name: 'Albanian Lek (ALL)',
-    symbolFormat: '{#} L'
+    symbolFormat: '{#} L',
   },
   DZD: {
     name: 'Algerian Dinar (DZD)',
-    symbolFormat: '{#} DA'
+    symbolFormat: '{#} DA',
   },
   AOA: {
     name: 'Angolan New Kwanza (AOA)',
-    symbolFormat: '{#} Kz'
+    symbolFormat: '{#} Kz',
   },
   ARS: {
     name: 'Argentine Peso (ARS)',
-    symbolFormat: '${#}'
+    symbolFormat: '${#}',
   },
   AMD: {
     name: 'Armenian Dram (AMD)',
-    symbolFormat: '{#}֏'
+    symbolFormat: '{#}֏',
   },
   AWG: {
     name: 'Aruba Florin (AWG)',
-    symbolFormat: 'Afl {#}'
+    symbolFormat: 'Afl {#}',
   },
   AUD: {
     name: 'Australian Dollar (AUD)',
-    symbolFormat: 'AU${#}'
+    symbolFormat: 'AU${#}',
   },
   AZM: {
     name: 'Azerbaijani Manat (AZM)',
-    symbolFormat: '₼{#}'
+    symbolFormat: '₼{#}',
   },
   BSD: {
     name: 'Bahamian Dollar (BSD)',
-    symbolFormat: 'B${#}'
+    symbolFormat: 'B${#}',
   },
   BHD: {
     name: 'Bahraini Dinar (BHD)',
-    symbolFormat: '{#} BD'
+    symbolFormat: '{#} BD',
   },
   BDT: {
     name: 'Bangladesh Taka (BDT)',
-    symbolFormat: '৳{#}'
+    symbolFormat: '৳{#}',
   },
   BBD: {
     name: 'Barbados Dollar (BBD)',
-    symbolFormat: 'Bds${#}'
+    symbolFormat: 'Bds${#}',
   },
   BYR: {
     name: 'Belarus Ruble (BYR)',
-    symbolFormat: 'Br {#}'
+    symbolFormat: 'Br {#}',
   },
   BZD: {
     name: 'Belize Dollar (BZD)',
-    symbolFormat: 'BZ${#}'
+    symbolFormat: 'BZ${#}',
   },
   BMD: {
     name: 'Bermuda Dollar (BMD)',
-    symbolFormat: '${#}'
+    symbolFormat: '${#}',
   },
   BTN: {
     name: 'Bhutan Ngultrum (BTN)',
-    symbolFormat: 'Nu.{#}'
+    symbolFormat: 'Nu.{#}',
   },
   BOB: {
     name: 'Bolivian Boliviano (BOB)',
-    symbolFormat: 'Bs. {#}'
+    symbolFormat: 'Bs. {#}',
   },
   BAM: {
     name: 'Bosnian Marka (BAM)',
-    symbolFormat: '{#} KM'
+    symbolFormat: '{#} KM',
   },
   BWP: {
     name: 'Botswana Pula (BWP)',
-    symbolFormat: 'P {#}'
+    symbolFormat: 'P {#}',
   },
   BRL: {
     name: 'Brazilian Real (BRL)',
-    symbolFormat: 'R${#}'
+    symbolFormat: 'R${#}',
   },
   GBP: {
     name: 'British Pound (GBP)',
-    symbolFormat: '&pound;{#}'
+    symbolFormat: '&pound;{#}',
   },
   BND: {
     name: 'Brunei Dollar (BND)',
-    symbolFormat: 'B${#}'
+    symbolFormat: 'B${#}',
   },
   BGN: {
     name: 'Bulgarian Lev (BGN)',
-    symbolFormat: 'BGN {#}'
+    symbolFormat: 'BGN {#}',
   },
   BIF: {
     name: 'Burundi Franc (BIF)',
-    symbolFormat: '{#} FBu'
+    symbolFormat: '{#} FBu',
   },
   KHR: {
     name: 'Cambodia Riel (KHR)',
-    symbolFormat: 'KHR {#}'
+    symbolFormat: 'KHR {#}',
   },
   CAD: {
     name: 'Canadian Dollar (CAD)',
-    symbolFormat: 'C${#}'
+    symbolFormat: 'C${#}',
   },
   CVE: {
     name: 'Cape Verde Escudo (CVE)',
-    symbolFormat: '{#} CVE'
+    symbolFormat: '{#} CVE',
   },
   KYD: {
     name: 'Cayman Islands Dollar (KYD)',
-    symbolFormat: 'CI${#}'
+    symbolFormat: 'CI${#}',
   },
   XOF: {
     name: 'CFA Franc (BCEAO) (XOF)',
-    symbolFormat: 'XOF {#}'
+    symbolFormat: 'XOF {#}',
   },
   XAF: {
     name: 'CFA Franc (BEAC) (XAF)',
-    symbolFormat: 'XAF {#}'
+    symbolFormat: 'XAF {#}',
   },
   CLP: {
     name: 'Chilean Peso (CLP)',
-    symbolFormat: 'CLP${#}'
+    symbolFormat: 'CLP${#}',
   },
   CNY: {
     name: 'Chinese Yuan (CNY)',
-    symbolFormat: '¥{#}'
+    symbolFormat: '¥{#}',
   },
   COP: {
     name: 'Colombian Peso (COP)',
-    symbolFormat: 'COL${#}'
+    symbolFormat: 'COL${#}',
   },
   KMF: {
     name: 'Comoros Franc (KMF)',
-    symbolFormat: 'CF {#}'
+    symbolFormat: 'CF {#}',
   },
   CDF: {
     name: 'Congolese Franc (CDF)',
-    symbolFormat: 'FC {#}'
+    symbolFormat: 'FC {#}',
   },
   CRC: {
     name: 'Costa Rica Colon (CRC)',
-    symbolFormat: '₡{#}'
+    symbolFormat: '₡{#}',
   },
   HRK: {
     name: 'Croatian Kuna (HRK)',
-    symbolFormat: '{#} kn'
+    symbolFormat: '{#} kn',
   },
   CUP: {
     name: 'Cuban Peso (CUP)',
-    symbolFormat: '${#}'
+    symbolFormat: '${#}',
   },
   CZK: {
     name: 'Czech Koruna (CZK)',
-    symbolFormat: '{#} Kč'
+    symbolFormat: '{#} Kč',
   },
   DKK: {
     name: 'Danish Krone (DKK)',
-    symbolFormat: '{#} Kr.'
+    symbolFormat: '{#} Kr.',
   },
   DJF: {
     name: 'Dijibouti Franc (DJF)',
-    symbolFormat: '{#} Fdj'
+    symbolFormat: '{#} Fdj',
   },
   DOP: {
     name: 'Dominican Peso (DOP)',
-    symbolFormat: 'RD${#}'
+    symbolFormat: 'RD${#}',
   },
   XCD: {
     name: 'East Caribbean Dollar (XCD)',
-    symbolFormat: '${#}'
+    symbolFormat: '${#}',
   },
   EGP: {
     name: 'Egyptian Pound (EGP)',
-    symbolFormat: 'E&pound; {#}'
+    symbolFormat: 'E&pound; {#}',
   },
   SVC: {
     name: 'El Salvador Colon (SVC)',
-    symbolFormat: '₡{#}'
+    symbolFormat: '₡{#}',
   },
   ERN: {
     name: 'Eritrea Nakfa (ERN)',
-    symbolFormat: '{#} Nkf'
+    symbolFormat: '{#} Nkf',
   },
   ETB: {
     name: 'Ethiopian Birr (ETB)',
-    symbolFormat: '{#} Br'
+    symbolFormat: '{#} Br',
   },
   EUR: {
     name: 'Euro (EUR)',
-    symbolFormat: '&euro;{#}'
+    symbolFormat: '&euro;{#}',
   },
   FKP: {
     name: 'Falkland Islands Pound (FKP)',
-    symbolFormat: 'FK&pound; {#}'
+    symbolFormat: 'FK&pound; {#}',
   },
   FJD: {
     name: 'Fiji Dollar (FJD)',
-    symbolFormat: 'FJ${#}'
+    symbolFormat: 'FJ${#}',
   },
   GMD: {
     name: 'Gambian Dalasi (GMD)',
-    symbolFormat: 'GMD {#}'
+    symbolFormat: 'GMD {#}',
   },
   GEL: {
     name: 'Georgian Lari (GEL)',
-    symbolFormat: '₾{#}'
+    symbolFormat: '₾{#}',
   },
   GHC: {
     name: 'Ghanian Cedi (GHC)',
-    symbolFormat: 'GH₵ {#}'
+    symbolFormat: 'GH₵ {#}',
   },
   GIP: {
     name: 'Gibraltar Pound (GIP)',
-    symbolFormat: '&pound;{#}'
+    symbolFormat: '&pound;{#}',
   },
   XAU: {
     name: 'Gold Ounces (XAU)',
-    symbolFormat: 'XAU {#}'
+    symbolFormat: 'XAU {#}',
   },
   GTQ: {
     name: 'Guatemala Quetzal (GTQ)',
-    symbolFormat: '{#} Q'
+    symbolFormat: '{#} Q',
   },
   GGP: {
     name: 'Guernsey Pound (GGP)',
-    symbolFormat: '&pound;{#}'
+    symbolFormat: '&pound;{#}',
   },
   GNF: {
     name: 'Guinea Franc (GNF)',
-    symbolFormat: 'GNF {#}'
+    symbolFormat: 'GNF {#}',
   },
   GYD: {
     name: 'Guyana Dollar (GYD)',
-    symbolFormat: 'GY${#}'
+    symbolFormat: 'GY${#}',
   },
   HTG: {
     name: 'Haiti Gourde (HTG)',
-    symbolFormat: 'HTG {#}'
+    symbolFormat: 'HTG {#}',
   },
   HNL: {
     name: 'Honduras Lempira (HNL)',
-    symbolFormat: 'HNL {#}'
+    symbolFormat: 'HNL {#}',
   },
   HKD: {
     name: 'Hong Kong Dollar (HKD)',
-    symbolFormat: 'HK${#}'
+    symbolFormat: 'HK${#}',
   },
   HUF: {
     name: 'Hungarian Forint (HUF)',
-    symbolFormat: '{#} Ft'
+    symbolFormat: '{#} Ft',
   },
   ISK: {
     name: 'Iceland Krona (ISK)',
-    symbolFormat: '{#} kr'
+    symbolFormat: '{#} kr',
   },
   INR: {
     name: 'Indian Rupee (INR)',
-    symbolFormat: '₹{#}'
+    symbolFormat: '₹{#}',
   },
   IDR: {
     name: 'Indonesian Rupiah (IDR)',
-    symbolFormat: 'Rp {#}'
+    symbolFormat: 'Rp {#}',
   },
   IRR: {
     name: 'Iran Rial (IRR)',
-    symbolFormat: 'IRR {#}'
+    symbolFormat: 'IRR {#}',
   },
   IQD: {
     name: 'Iraqi Dinar (IQD)',
-    symbolFormat: 'IQD {#}'
+    symbolFormat: 'IQD {#}',
   },
   IMP: {
     name: 'Isle of Man Pound (IMP)',
-    symbolFormat: '&pound;{#}'
+    symbolFormat: '&pound;{#}',
   },
   ILS: {
     name: 'Israeli Shekel (ILS)',
-    symbolFormat: '₪{#}'
+    symbolFormat: '₪{#}',
   },
   JMD: {
     name: 'Jamaican Dollar (JMD)',
-    symbolFormat: 'JA${#}'
+    symbolFormat: 'JA${#}',
   },
   JPY: {
     name: 'Japanese Yen (JPY)',
-    symbolFormat: '&yen;{#}'
+    symbolFormat: '&yen;{#}',
   },
   JEP: {
     name: 'Jersey Pound (JEP)',
-    symbolFormat: '&pound;{#}'
+    symbolFormat: '&pound;{#}',
   },
   JOD: {
     name: 'Jordanian Dinar (JOD)',
-    symbolFormat: 'JOD {#}'
+    symbolFormat: 'JOD {#}',
   },
   KZT: {
     name: 'Kazakhstan Tenge (KZT)',
-    symbolFormat: '₸{#}'
+    symbolFormat: '₸{#}',
   },
   KES: {
     name: 'Kenyan Shilling (KES)',
-    symbolFormat: 'KSh {#}'
+    symbolFormat: 'KSh {#}',
   },
   KRW: {
     name: 'Korean Won (KRW)',
-    symbolFormat: '₩{#}'
+    symbolFormat: '₩{#}',
   },
   KWD: {
     name: 'Kuwaiti Dinar (KWD)',
-    symbolFormat: '{#} KD'
+    symbolFormat: '{#} KD',
   },
   KGS: {
     name: 'Kyrgyzstan Som (KGS)',
-    symbolFormat: 'KGS {#}'
+    symbolFormat: 'KGS {#}',
   },
   LAK: {
     name: 'Lao Kip (LAK)',
-    symbolFormat: '₭{#}'
+    symbolFormat: '₭{#}',
   },
   LBP: {
     name: 'Lebanese Pound (LBP)',
-    symbolFormat: 'LBP {#}'
+    symbolFormat: 'LBP {#}',
   },
   LSL: {
     name: 'Lesotho Loti (LSL)',
-    symbolFormat: 'LSL {#}'
+    symbolFormat: 'LSL {#}',
   },
   LRD: {
     name: 'Liberian Dollar (LRD)',
-    symbolFormat: 'L${#}'
+    symbolFormat: 'L${#}',
   },
   LYD: {
     name: 'Libyan Dinar (LYD)',
-    symbolFormat: '{#} LD'
+    symbolFormat: '{#} LD',
   },
   MOP: {
     name: 'Macau Pataca (MOP)',
-    symbolFormat: 'MOP${#}'
+    symbolFormat: 'MOP${#}',
   },
   MKD: {
     name: 'Macedonian Denar (MKD)',
-    symbolFormat: 'MKD {#}'
+    symbolFormat: 'MKD {#}',
   },
   MGF: {
     name: 'Malagasy Franc (MGF)',
-    symbolFormat: 'MGF {#}'
+    symbolFormat: 'MGF {#}',
   },
   MWK: {
     name: 'Malawi Kwacha (MWK)',
-    symbolFormat: 'MK {#}'
+    symbolFormat: 'MK {#}',
   },
   MYR: {
     name: 'Malaysian Ringgit (MYR)',
-    symbolFormat: 'RM {#}'
+    symbolFormat: 'RM {#}',
   },
   MVR: {
     name: 'Maldives Rufiyaa (MVR)',
-    symbolFormat: 'MVR {#}'
+    symbolFormat: 'MVR {#}',
   },
   MRO: {
     name: 'Mauritania Ougulya (MRO)',
-    symbolFormat: 'MRO {#}'
+    symbolFormat: 'MRO {#}',
   },
   MUR: {
     name: 'Mauritius Rupee (MUR)',
-    symbolFormat: 'Rs {#}'
+    symbolFormat: 'Rs {#}',
   },
   MXN: {
     name: 'Mexican Peso (MXN)',
-    symbolFormat: '${#}'
+    symbolFormat: '${#}',
   },
   MDL: {
     name: 'Moldovan Leu (MDL)',
-    symbolFormat: 'MDL {#}'
+    symbolFormat: 'MDL {#}',
   },
   MNT: {
     name: 'Mongolian Tugrik (MNT)',
-    symbolFormat: 'MNT {#}'
+    symbolFormat: 'MNT {#}',
   },
   MAD: {
     name: 'Moroccan Dirham (MAD)',
-    symbolFormat: 'MAD {#}'
+    symbolFormat: 'MAD {#}',
   },
   MZM: {
     name: 'Mozambique Metical (MZM)',
-    symbolFormat: 'MZM {#}'
+    symbolFormat: 'MZM {#}',
   },
   MMK: {
     name: 'Myanmar Kyat (MMK)',
-    symbolFormat: 'K{#}'
+    symbolFormat: 'K{#}',
   },
   NAD: {
     name: 'Namibian Dollar (NAD)',
-    symbolFormat: 'N${#}'
+    symbolFormat: 'N${#}',
   },
   NPR: {
     name: 'Nepalese Rupee (NPR)',
-    symbolFormat: 'रू{#}'
+    symbolFormat: 'रू{#}',
   },
   ANG: {
     name: 'Neth Antilles Guilder (ANG)',
-    symbolFormat: 'ƒ{#}'
+    symbolFormat: 'ƒ{#}',
   },
   NZD: {
     name: 'New Zealand Dollar (NZD)',
-    symbolFormat: 'NZ${#}'
+    symbolFormat: 'NZ${#}',
   },
   NIO: {
     name: 'Nicaragua Cordoba (NIO)',
-    symbolFormat: 'C${#}'
+    symbolFormat: 'C${#}',
   },
   NGN: {
     name: 'Nigerian Naira (NGN)',
-    symbolFormat: '₦{#}'
+    symbolFormat: '₦{#}',
   },
   KPW: {
     name: 'North Korean Won (KPW)',
-    symbolFormat: '₩{#}'
+    symbolFormat: '₩{#}',
   },
   NOK: {
     name: 'Norwegian Krone (NOK)',
-    symbolFormat: '{#} kr'
+    symbolFormat: '{#} kr',
   },
   OMR: {
     name: 'Omani Rial (OMR)',
-    symbolFormat: 'OMR {#}'
+    symbolFormat: 'OMR {#}',
   },
   XPF: {
     name: 'Pacific Franc (XPF)',
-    symbolFormat: '₣{#}'
+    symbolFormat: '₣{#}',
   },
   PKR: {
     name: 'Pakistani Rupee (PKR)',
-    symbolFormat: 'Rs {#}'
+    symbolFormat: 'Rs {#}',
   },
   XPD: {
     name: 'Palladium Ounces (XPD)',
-    symbolFormat: 'XPD {#}'
+    symbolFormat: 'XPD {#}',
   },
   PAB: {
     name: 'Panama Balboa (PAB)',
-    symbolFormat: 'B/. {#}'
+    symbolFormat: 'B/. {#}',
   },
   PGK: {
     name: 'Papua New Guinea Kina (PGK)',
-    symbolFormat: 'K {#}'
+    symbolFormat: 'K {#}',
   },
   PYG: {
     name: 'Paraguayan Guarani (PYG)',
-    symbolFormat: '₲{#}'
+    symbolFormat: '₲{#}',
   },
   PEN: {
     name: 'Peruvian Nuevo Sol (PEN)',
-    symbolFormat: 'S/{#}'
+    symbolFormat: 'S/{#}',
   },
   PHP: {
     name: 'Philippine Peso (PHP)',
-    symbolFormat: '₱{#}'
+    symbolFormat: '₱{#}',
   },
   XPT: {
     name: 'Platinum Ounces (XPT)',
-    symbolFormat: 'XPT {#}'
+    symbolFormat: 'XPT {#}',
   },
   PLN: {
     name: 'Polish Zloty (PLN)',
-    symbolFormat: '{#}zł'
+    symbolFormat: '{#}zł',
   },
   QAR: {
     name: 'Qatar Rial (QAR)',
-    symbolFormat: 'QAR {#}'
+    symbolFormat: 'QAR {#}',
   },
   ROL: {
     name: 'Romanian Leu (ROL)',
-    symbolFormat: 'RON {#}'
+    symbolFormat: 'RON {#}',
   },
   RUB: {
     name: 'Russian Rouble (RUB)',
-    symbolFormat: '{#}₽'
+    symbolFormat: '{#}₽',
   },
   RWF: {
     name: 'Rwanda Franc (RWF)',
-    symbolFormat: 'FRw {#}'
+    symbolFormat: 'FRw {#}',
   },
   WST: {
     name: 'Samoa Tala (WST)',
-    symbolFormat: 'WS${#}'
+    symbolFormat: 'WS${#}',
   },
   STD: {
     name: 'Sao Tome Dobra (STN)',
-    symbolFormat: 'STN {#}'
+    symbolFormat: 'STN {#}',
   },
   SAR: {
     name: 'Saudi Arabian Riyal (SAR)',
-    symbolFormat: 'SAR {#}'
+    symbolFormat: 'SAR {#}',
   },
   SCR: {
     name: 'Seychelles Rupee (SCR)',
-    symbolFormat: 'SCR {#}'
+    symbolFormat: 'SCR {#}',
   },
   SLL: {
     name: 'Sierra Leone Leone (SLL)',
-    symbolFormat: 'SLL {#}'
+    symbolFormat: 'SLL {#}',
   },
   XAG: {
     name: 'Silver Ounces (XAG)',
-    symbolFormat: 'XAG {#}'
+    symbolFormat: 'XAG {#}',
   },
   SGD: {
     name: 'Singapore Dollar (SGD)',
-    symbolFormat: 'S${#}'
+    symbolFormat: 'S${#}',
   },
   SBD: {
     name: 'Solomon Islands Dollar (SBD)',
-    symbolFormat: 'SI${#}'
+    symbolFormat: 'SI${#}',
   },
   SOS: {
     name: 'Somali Shilling (SOS)',
-    symbolFormat: 'SOS {#}'
+    symbolFormat: 'SOS {#}',
   },
   ZAR: {
     name: 'South African Rand (ZAR)',
-    symbolFormat: 'R{#}'
+    symbolFormat: 'R{#}',
   },
   LKR: {
     name: 'Sri Lanka Rupee (LKR)',
-    symbolFormat: 'Rs {#}'
+    symbolFormat: 'Rs {#}',
   },
   SHP: {
     name: 'St Helena Pound (SHP)',
-    symbolFormat: '&pound;{#}'
+    symbolFormat: '&pound;{#}',
   },
   SSP: {
     name: 'Sudanese Pound (SSP)',
-    symbolFormat: 'SSP {#}'
+    symbolFormat: 'SSP {#}',
   },
   SRD: {
     name: 'Surinam Dollar (SRD)',
-    symbolFormat: 'Sr${#}'
+    symbolFormat: 'Sr${#}',
   },
   SZL: {
     name: 'Swaziland Lilageni (SZL)',
-    symbolFormat: 'E{#}'
+    symbolFormat: 'E{#}',
   },
   SEK: {
     name: 'Swedish Krona (SEK)',
-    symbolFormat: '{#} kr'
+    symbolFormat: '{#} kr',
   },
   CHF: {
     name: 'Swiss Franc (CHF)',
-    symbolFormat: '{#} Fr.'
+    symbolFormat: '{#} Fr.',
   },
   SYP: {
     name: 'Syrian Pound (SYP)',
-    symbolFormat: 'SYP {#}'
+    symbolFormat: 'SYP {#}',
   },
   TWD: {
     name: 'Taiwan Dollar (TWD)',
-    symbolFormat: 'NT${#}'
+    symbolFormat: 'NT${#}',
   },
   TZS: {
     name: 'Tanzanian Shilling (TZS)',
-    symbolFormat: 'TZS {#}'
+    symbolFormat: 'TZS {#}',
   },
   THB: {
     name: 'Thai Baht (THB)',
-    symbolFormat: '฿{#}'
+    symbolFormat: '฿{#}',
   },
   TOP: {
     name: "Tonga Pa'anga (TOP)",
-    symbolFormat: 'T${#}'
+    symbolFormat: 'T${#}',
   },
   TTD: {
     name: 'Trinidad&Tobago Dollar (TTD)',
-    symbolFormat: 'TT${#}'
+    symbolFormat: 'TT${#}',
   },
   TND: {
     name: 'Tunisian Dinar (TND)',
-    symbolFormat: 'TND {#}'
+    symbolFormat: 'TND {#}',
   },
   TRL: {
     name: 'Turkish Lira (TRL)',
-    symbolFormat: '₺{#}'
+    symbolFormat: '₺{#}',
   },
   TMM: {
     name: 'Turkmen Manat (TMM)',
-    symbolFormat: 'TMM {#}'
+    symbolFormat: 'TMM {#}',
   },
   USD: {
     name: 'U.S. Dollar (USD)',
-    symbolFormat: '${#}'
+    symbolFormat: '${#}',
   },
   AED: {
     name: 'UAE Dirham (AED)',
-    symbolFormat: 'AED {#}'
+    symbolFormat: 'AED {#}',
   },
   UGX: {
     name: 'Ugandan Shilling (UGX)',
-    symbolFormat: 'USh {#}'
+    symbolFormat: 'USh {#}',
   },
   UAH: {
     name: 'Ukraine Hryvnia (UAH)',
-    symbolFormat: '₴{#}'
+    symbolFormat: '₴{#}',
   },
   UYU: {
     name: 'Uruguayan New Peso (UYU)',
-    symbolFormat: '${#}'
+    symbolFormat: '${#}',
   },
   UZS: {
     name: 'Uzbekistani Sum (UZS)',
-    symbolFormat: '{#} soʻm'
+    symbolFormat: '{#} soʻm',
   },
   VUV: {
     name: 'Vanuatu Vatu (VUV)',
-    symbolFormat: '{#}VT'
+    symbolFormat: '{#}VT',
   },
   VEB: {
     name: 'Venezuelan Bolivar (VEB)',
-    symbolFormat: '{#} Bs.'
+    symbolFormat: '{#} Bs.',
   },
   VND: {
     name: 'Vietnam Dong (VND)',
-    symbolFormat: '{#}₫'
+    symbolFormat: '{#}₫',
   },
   YER: {
     name: 'Yemen Riyal (YER)',
-    symbolFormat: 'YER {#}'
+    symbolFormat: 'YER {#}',
   },
   YUM: {
     name: 'Yugoslav Dinar (YUM)',
-    symbolFormat: 'YUM {#}'
+    symbolFormat: 'YUM {#}',
   },
   ZRN: {
     name: 'Zaire New Zaire (ZRN)',
-    symbolFormat: 'ZRN {#}'
+    symbolFormat: 'ZRN {#}',
   },
-  ZMK: {
-    name: 'Zambian Kwacha (ZMK)',
-    symbolFormat: 'ZMK {#}'
+  ZMW: {
+    name: 'Zambian Kwacha (ZMW)',
+    symbolFormat: 'ZMW {#}',
   },
-  ZWD: {
-    name: 'Zimbabwe Dollar (ZWD)',
-    symbolFormat: 'Z${#}'
-  }
+  ZWL: {
+    name: 'Zimbabwe Dollar (ZWL)',
+    symbolFormat: 'Z${#}',
+  },
 };
